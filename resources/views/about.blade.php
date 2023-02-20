@@ -85,7 +85,7 @@
                     <div class="d-flex align-items-center mb-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
                             style="width: 120px; height: 120px;">
-                            <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
+                            <h1 class="display-1 mb-n2" data-toggle="counter-up">300</h1>
                         </div>
                         <div class="ps-4">
                             <h3>Plus de </h3>
@@ -162,7 +162,7 @@
                     <div class="feature-img">
                         <img class="img-fluid" src="{{ asset('assets/img/prestations/prestation-4.jpg') }}"
                             alt="">
-                        <img class="img-fluid" src="{{ asset('assets/img/prestations/prestation-3.jpg') }}"
+                        <img class="img-fluid" src="{{ asset('assets/img/about/enfant.jpg') }}"
                             alt="">
                     </div>
                 </div>

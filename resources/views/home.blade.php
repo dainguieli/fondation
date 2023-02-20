@@ -100,7 +100,7 @@
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Hic eveniet explicabo maiores provident iusto consequatur. Officiis voluptas reprehenderit,
                                      cupiditate autem pariatur dolore veritatis itaque nam. Necessitatibus unde non minus tenetur.</p>
-                                <a href="{{ url('') }}"
+                                <a href="{{ url('/don') }}"
                                     class="btn btn-primary py-3 px-5 animated slideInLeft">Faite un don</a>
                             </div>
                         </div>
@@ -270,7 +270,9 @@
  
 
          <!-- Programme End -->
-    <!-- Facts Start -->
+
+         <!-- Facts Start -->
+         <!--
     <div class="container-xxl py-5">
         <div class="container pt-5">
             <div class="row g-4">
@@ -304,9 +306,37 @@
             </div>
         </div>
     </div>
+-->
     <!-- Facts End -->
-
-
+<br>
+<!-- secteur counter-->
+<section id="counter">
+        <div class="counter-up">
+            <div class="content">
+                <div class="box">
+                    <div class="icon"><i class="bi bi-calendar-week"></i></div>
+                    <div class="counter">724</div>
+                    <div class="text">Programmes Phares</div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-users"></i></div>
+                    <div class="counter">508</div>
+                    <div class="text">Volontaires</div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="bi bi-easel"></i></div>
+                   
+                    <div class="counter">724</div>
+                    <div class="text">Représentations</div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-gift"></i></div>
+                    <div class="counter">72</div>
+                    <div class="text">Bénéficiaires depuis 2009</div>
+                </div>
+            </div>
+        </div>
+    </section>
 <!--
     <-- Service Start ->
     <div class="container-xxl py-5">
@@ -391,6 +421,19 @@
     <!-- Feature End -->
 
     <!-- Appointment End -->
+ <!-- Rejoin nous Start -->
+ <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h4 class="section-title">Rejoignez-nous !</h4>
+                <h1 class="">Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider
+                     les jeunes en situation de vulnérabilité en Côte d'Ivoire.
+                     Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- Testimonial End -->
 
 
     <!-- Testimonial Start -->
@@ -400,26 +443,7 @@
                 <h4 class="section-title">Testimonial</h4>
                 <h1 class="display-5 mb-4">Nous les rendons plus forts</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center"
-                    data-dot="<img class='img-fluid' src='{{ asset('assets/img/temoignages/testimonial-1.jpg') }}' alt=''>">
-                    <p class="fs-5">Chargement en cours...</p>
-                    
-                
-                </div>
-                <div class="testimonial-item text-center"
-                    data-dot="<img class='img-fluid' src='{{ asset('assets/img/temoignages/testimonial-2.jpg') }}' alt=''>">
-                    <p class="fs-5"> Chargement en cours...</p>
-                    
-                    
-                </div>
-                <div class="testimonial-item text-center"
-                    data-dot="<img class='img-fluid' src='{{ asset('assets/img/temoignages/testimonial-3.jpg') }}' alt=''>">
-                    <p class="fs-5">Chargement en cours</p>
-                    
-                
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- Testimonial End -->
