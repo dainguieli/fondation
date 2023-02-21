@@ -43,6 +43,9 @@ Route::get('/project', function () {
 Route::get('/don', function () {
     return view('don',['PageName' => 'don']);
 });
+Route::get('/actualite', function () {
+    return view('actualite',['PageName' => 'actualite']);
+});
 Route::get('/team', function () {
     return view('team',['PageName' => 'team']);
 });

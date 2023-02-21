@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <a class="btn btn-primary py-3 px-5" href="">Faite un don</a>
+                        <a class="btn btn-primary py-3 px-5" href="{{ url('/don') }}">Faite un don</a>
                       
                     </div>
                    

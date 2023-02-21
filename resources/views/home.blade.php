@@ -198,33 +198,33 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/about/coachs.jpg') }}"
                                 alt="">
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
+                                    <i class="bi bi-clock"></i> 18 Fev 2023	</div>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
+                            <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
+                            <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
+                            <a  href="{{ url('/about') }}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}"
                                 alt="">
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
+                                    <i class="bi bi-clock"></i>  13 Fev 2023	</div>
                             </div>
                         </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
+                        <div class="bg-light text-center p-3">
+                            <span class="text-primary" style="width: 600px;" > le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
+                            <p class="mt-2">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque.Le président de la fondation a été très heureux de recevoir ce jeune créateur qui propose de beaux articles. Des engagements forts ont été pris pour…</p>
                             <a  href=""> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
@@ -232,17 +232,18 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/about/chronos.jpg') }}"
                                 alt="">
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
+                                    <i class="bi bi-clock"></i> 14 Nov 2022	</div>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoire plus</span></a>  
+                            <p class="mt-2">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique. 
+l'objectif final de ce partenariat est d'aboutir à l…</p>
+                            <a  href=""> <span class="">Savoire plus</span></a>  
                         </div>
                     </div>
                 </div>
@@ -332,7 +333,7 @@
                 <div class="box">
                     <div class="icon"><i class="fa fa-gift"></i></div>
                     <div class="counter">72</div>
-                    <div class="text">Bénéficiaires depuis 2009</div>
+                    <div class="text">Bénéficiaires</div>
                 </div>
             </div>
         </div>
@@ -422,20 +423,25 @@
 
     <!-- Appointment End -->
  <!-- Rejoin nous Start -->
- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <h4 class="section-title">Rejoignez-nous !</h4>
-                <h1 class="">Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider
-                     les jeunes en situation de vulnérabilité en Côte d'Ivoire.
-                     Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes</h1>
-            </div>
-
-        </div>
-    </div>
+ 
+     
     <!-- Testimonial End -->
-
-
+    <div class="bg-light text-center p-4">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Rejoignez-nous !</h4>
+                    <h1 class="">Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider
+                         les jeunes en situation de vulnérabilité en Côte d'Ivoire.
+                         Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes</h1>
+                </div>
+                <img  data-wow-delay="0.1s" src="{{ asset('assets/img/carousels/benevo.jpg') }}" class="card-img-top" alt="...">
+               
+            </div>
+          
+        </div>
+    <a href="{{ url('/don') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
+    </div>
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
