@@ -31,13 +31,20 @@
             <a href="{{ url('/about') }}" class="nav-item nav-link @if ($PageName=="about")active @endif">A Propos De Nous</a>
             <a href="{{ url('/') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Programmes</a>
             <a href="{{ url('/actualite') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Actualités</a>
-            <a href="{{ url('/') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Actions</a>
-           
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Actions</a>
+                <div class="dropdown-menu border-0 m-0">
+                    <a href="{{ url('/action') }}" class="dropdown-item bouton">SEL FESTIVAL</a>
+
+
+                </div>
+            </div>
+            
          
                 
             <a href="{{ url('/contact') }}" class="nav-item nav-link @if ($PageName=="contact")active @endif">Contact</a>
         </div>
-        <a href="{{ url('/don') }}" class="btn btn-primary py-2 px-4 d-none d-lg-block @if ($PageName=="don")active @endif">SOUTIENT UN ENTREPRENEUR</a>
+        <a href="{{ url('/don') }}" class="btn btn-primary py-2 px-4 d-none d-lg-block @if ($PageName=="don")active @endif">SOUTENIR</a>
     </div>
 </nav>
 <!-- section menu Fin -->

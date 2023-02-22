@@ -80,7 +80,7 @@
                     <p class="mb-4">  Rejoignez-nous dans cette mission importante et faites un don dès maintenant pour soutenir la Fondation Glory Impact Group.
                     </p>
                 
-                        <a class="btn btn-primary py-3 px-5" href="#don">Faite un don</a>
+                        <a class="btn btn-primary py-3 px-5" href="#don">SOUTENIR UN ENTREPRENEUR</a>
                     
                 
                    
@@ -121,7 +121,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0585.JPG') }}"
                                 alt="">
                            
                         </div>
@@ -135,7 +135,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0584.JPG') }}" 
                                 alt="">
                           
                         </div>
@@ -149,7 +149,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0594.jpg') }}"
                                 alt="">
                            
                         </div>
@@ -163,7 +163,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0625.jpg') }}"
                                 alt="">
                           
                         </div>
@@ -193,7 +193,9 @@
     </div>
     <!-- Service End -->
         <strong><p class="text-center mx-auto mb-5 wow fadeInUp">Ces réalisations ont permis d'avoir un impact positif sur la vie de nombreux jeunes en Côte d'Ivoire et de les aider à surmonter les obstacles auxquels ils sont confrontés. Votre don peut aider la Fondation Glory Impact Group à continuer de réaliser ces actions importantes pour aider la jeunesse ivoirienne.</p></strong>
+        <div class="bg-light text-center p-5.9">
         <p  id="don"class="text-primary grop-txt-block grop-box-txt text-center mx-auto mb-5 wow fadeInUp">Faites votre dépôt sur l'un des numéros suivants : +225 00 49 00 00 00 ou +225 00 00 00 00 00</p>
+        </div>
     </div>
 
 

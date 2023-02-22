@@ -126,7 +126,7 @@
                                  Si vous partagez nos valeurs et que vous souhaitez 
                                  vous engager pour la jeunesse en difficulté, devenez bénévole de 
                                  la Fondation Glory Impact Group.</p>
-                            <a href="{{ url('') }}"
+                            <a href="{{ url('/benevole') }}"
                                 class="btn btn-primary py-3 px-5 animated slideInLeft">Rejoignez-nous</a>
                         </div>
                     </div>
@@ -165,7 +165,34 @@
         </div>
     </div>
     <!-- About End -->
-
+<!-- secteur counter-->
+<section id="counter">
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="bi bi-calendar-week"></i></div>
+                <div class="counter">724</div>
+                <div class="text">Programmes Phares</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-users"></i></div>
+                <div class="counter">508</div>
+                <div class="text">Volontaires</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="bi bi-easel"></i></div>
+               
+                <div class="counter">724</div>
+                <div class="text">Représentations</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-gift"></i></div>
+                <div class="counter">72</div>
+                <div class="text">Bénéficiaires</div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- programme Start -->
         
     <div class="container-xxl py-5">
@@ -200,15 +227,16 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/coachs.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 18 Fev 2023	</div>
-                            </div>
+                            
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
                             <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
-                            <a  href="{{ url('/about') }}"> <span class="text-primary">Savoir plus</span></a>  
+
+                        
+
+                            <a  href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
+
                         </div>
                     </div>
                 </div>
@@ -217,10 +245,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i>  13 Fev 2023	</div>
-                            </div>
+                          
                         </div>
                         <div class="bg-light text-center p-3">
                             <span class="text-primary" style="width: 600px;" > le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
@@ -232,12 +257,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/chronos.jpg') }}"
+                            <img class="img-fluid"  width="500" height="400"src="{{ asset('assets/img/about/chronos.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 14 Nov 2022	</div>
-                            </div>
+                       
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
@@ -252,10 +274,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
+                        
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
@@ -310,34 +329,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
 -->
     <!-- Facts End -->
 <br>
-<!-- secteur counter-->
-<section id="counter">
-        <div class="counter-up">
-            <div class="content">
-                <div class="box">
-                    <div class="icon"><i class="bi bi-calendar-week"></i></div>
-                    <div class="counter">724</div>
-                    <div class="text">Programmes Phares</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-users"></i></div>
-                    <div class="counter">508</div>
-                    <div class="text">Volontaires</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="bi bi-easel"></i></div>
-                   
-                    <div class="counter">724</div>
-                    <div class="text">Représentations</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-gift"></i></div>
-                    <div class="counter">72</div>
-                    <div class="text">Bénéficiaires</div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 <!--
     <-- Service Start ->
     <div class="container-xxl py-5">
@@ -440,19 +432,13 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
           
         </div>
-    <a href="{{ url('/don') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
+
+ 
+
+    <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
+
     </div>
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Testimonial</h4>
-                <h1 class="display-5 mb-4">Nous les rendons plus forts</h1>
-            </div>
-            
-        </div>
-    </div>
-    <!-- Testimonial End -->
+   
 
 
     <!-- Section Bas de page debut -->

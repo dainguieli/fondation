@@ -89,12 +89,12 @@
                         </div>
                         <div class="ps-4">
                             <h3>Plus de </h3>
-                            <h3>don</h3>
+                            <h3>soutient</h3>
                             <h3 class="mb-0">Fait</h3>
                         </div>
                     </div>
                     <div class="col">
-                        <a class="btn btn-primary py-3 px-5" href="{{ url('/don') }}">Faite un don</a>
+                        <a class="btn btn-primary py-3 px-5" href="{{ url('/don') }}">SOUTIENT UN ENTREPRENEUR</a>
                       
                     </div>
                    
@@ -303,11 +303,11 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/personnel/zinsou.jpeg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
                         </div>
                         <div class="bg-light text-center p-4">
                             <h3 class="mt-2">Serges ZINSOU</h3>

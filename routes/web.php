@@ -43,8 +43,35 @@ Route::get('/project', function () {
 Route::get('/don', function () {
     return view('don',['PageName' => 'don']);
 });
+
 Route::get('/actualite', function () {
     return view('actualite',['PageName' => 'actualite']);
+});
+
+//actualite
+Route::get('/actualite', function () {
+    return view('actualite',['PageName' => 'actualite']);
+});
+Route::get('/coachs_Jos', function () {
+    return view('actualite.coachs_Jos',['PageName' => 'coachs_Jos']);
+});
+Route::get('/VisiteGroupe', function () {
+    return view('actualite.VisiteGroupe',['PageName' => 'VisiteGroupe']);
+});
+
+Route::get('/jeunegroulleur', function () {
+    return view('actualite.jeunegroulleur',['PageName' => 'jeunegroulleur']);
+});
+//benevole
+Route::get('/benevole', function () {
+    return view('benevole',['PageName' => 'benevole']);
+});
+//action
+Route::get('/action', function () {
+    return view('action',['PageName' => 'action']);
+});//action
+Route::get('/action', function () {
+    return view('action',['PageName' => 'action']);
 });
 Route::get('/team', function () {
     return view('team',['PageName' => 'team']);
