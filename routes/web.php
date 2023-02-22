@@ -43,9 +43,24 @@ Route::get('/project', function () {
 Route::get('/don', function () {
     return view('don',['PageName' => 'don']);
 });
+<<<<<<< HEAD
 Route::get('/actualite', function () {
     return view('actualite',['PageName' => 'actualite']);
 });
+=======
+//actualite
+Route::get('/actualite', function () {
+    return view('actualite',['PageName' => 'actualite']);
+});
+Route::get('/coachs_Jos', function () {
+    return view('actualite.coachs_Jos',['PageName' => 'coachs_Jos']);
+});
+//benevole
+Route::get('/benevole', function () {
+    return view('benevole',['PageName' => 'benevole']);
+});
+
+>>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
 Route::get('/team', function () {
     return view('team',['PageName' => 'team']);
 });

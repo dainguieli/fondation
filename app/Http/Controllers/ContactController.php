@@ -17,32 +17,7 @@ class ContactController extends Controller
         $destinataire = env('MAIL_TO_NAME');
         $service_requested = $request->services;
 
-        switch ($service_requested) {
-            case (1):
-                $request->services = "Vente de Terrain";
-                break;
-
-            case (2):
-                $request->services = "Architecture";
-                break;
-
-            case (3):
-                $request->services = "House Planning";
-                break;
-
-            case (4):
-                $request->services = "Construction";
-                break;
-            case (5):
-                $request->services = "Architecture d'Interieur";
-                break;
-            case (6):
-                $request->services = "Renovation";
-                break;
-
-            default:
-                $request->services = "Demande d'information";
-        }
+      
 
         try {
 

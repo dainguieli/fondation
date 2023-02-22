@@ -126,7 +126,7 @@
                                  Si vous partagez nos valeurs et que vous souhaitez 
                                  vous engager pour la jeunesse en difficulté, devenez bénévole de 
                                  la Fondation Glory Impact Group.</p>
-                            <a href="{{ url('') }}"
+                            <a href="{{ url('/benevole') }}"
                                 class="btn btn-primary py-3 px-5 animated slideInLeft">Rejoignez-nous</a>
                         </div>
                     </div>
@@ -208,7 +208,11 @@
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
                             <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
+<<<<<<< HEAD
                             <a  href="{{ url('/about') }}"> <span class="text-primary">Savoir plus</span></a>  
+=======
+                            <a  href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
+>>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
                         </div>
                     </div>
                 </div>
@@ -440,7 +444,11 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
           
         </div>
+<<<<<<< HEAD
     <a href="{{ url('/don') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
+=======
+    <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
+>>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
     </div>
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
