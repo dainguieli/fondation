@@ -80,11 +80,9 @@
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
                             <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
-<<<<<<< HEAD
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-=======
+
                             <a href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
+
                         </div>
                     </div>
                 </div>
@@ -204,11 +202,9 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
                             <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-<<<<<<< HEAD
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-=======
+
                             <a href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
+
                         </div>
                     </div>
                 </div>

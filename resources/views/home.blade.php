@@ -165,7 +165,34 @@
         </div>
     </div>
     <!-- About End -->
-
+<!-- secteur counter-->
+<section id="counter">
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="bi bi-calendar-week"></i></div>
+                <div class="counter">724</div>
+                <div class="text">Programmes Phares</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-users"></i></div>
+                <div class="counter">508</div>
+                <div class="text">Volontaires</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="bi bi-easel"></i></div>
+               
+                <div class="counter">724</div>
+                <div class="text">Représentations</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-gift"></i></div>
+                <div class="counter">72</div>
+                <div class="text">Bénéficiaires</div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- programme Start -->
         
     <div class="container-xxl py-5">
@@ -200,19 +227,16 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/coachs.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 18 Fev 2023	</div>
-                            </div>
+                            
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
                             <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
-<<<<<<< HEAD
-                            <a  href="{{ url('/about') }}"> <span class="text-primary">Savoir plus</span></a>  
-=======
+
+                        
+
                             <a  href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
+
                         </div>
                     </div>
                 </div>
@@ -221,10 +245,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i>  13 Fev 2023	</div>
-                            </div>
+                          
                         </div>
                         <div class="bg-light text-center p-3">
                             <span class="text-primary" style="width: 600px;" > le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
@@ -236,12 +257,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/chronos.jpg') }}"
+                            <img class="img-fluid"  width="500" height="400"src="{{ asset('assets/img/about/chronos.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 14 Nov 2022	</div>
-                            </div>
+                       
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
@@ -256,10 +274,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
                                 alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
+                        
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
@@ -314,34 +329,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
 -->
     <!-- Facts End -->
 <br>
-<!-- secteur counter-->
-<section id="counter">
-        <div class="counter-up">
-            <div class="content">
-                <div class="box">
-                    <div class="icon"><i class="bi bi-calendar-week"></i></div>
-                    <div class="counter">724</div>
-                    <div class="text">Programmes Phares</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-users"></i></div>
-                    <div class="counter">508</div>
-                    <div class="text">Volontaires</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="bi bi-easel"></i></div>
-                   
-                    <div class="counter">724</div>
-                    <div class="text">Représentations</div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-gift"></i></div>
-                    <div class="counter">72</div>
-                    <div class="text">Bénéficiaires</div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 <!--
     <-- Service Start ->
     <div class="container-xxl py-5">
@@ -444,24 +432,108 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
           
         </div>
-<<<<<<< HEAD
-    <a href="{{ url('/don') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
-=======
+
+ 
+
     <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
+
     </div>
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <br>
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
+       
+    </div>
+    <div class="bg-light text-center container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Testimonial</h4>
-                <h1 class="display-5 mb-4">Nous les rendons plus forts</h1>
-            </div>
+           
             
+
+            <div class="row g-0 team-items">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/1.png') }}"
+                                alt="">
+                            
+                        </div>
+                   
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/2.png') }}"
+                            alt="">
+                          <br>
+                        </div>
+                     
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/3.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/fondationjs.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div>
+                  <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/4.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/296734966_635127788185801_1636939761000945103_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFLYaeJQIy3IbZOiP3NCFy_TWEz-QzkYAxNYTP5DORgDMkF2CmksAbQw9SWRw1j3WMsd3GcM1CUldauxa1l5OLz&_nc_ohc=1eaVqyR-Ww8AX91xGTr&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDTPPPVlNYT0hKZbPLKHiXRh3YniEUzRe9Gfl54SxwqFw&oe=63FF5456" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                       
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/326055544_5765127286928238_8934736117882148358_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEmsP_RHEYqUMSqUlNALzvJZ7XqCn0Pus5nteoKfQ-6znPskSwfxc0qbYRjWvNhH092zrV9b7PF27hnhPXwevgR&_nc_ohc=lHN0rgVtx-AAX-tEvE1&tn=mc-xjTzR46K2Jven&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDCQcjBw76wm98CDiGu7X1wKl6X3_MESJeQhXJr4CKvbg&oe=63FF3E3E" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                       
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                         <img width="100" height="100" src="https://www.agenceemploijeunes.ci/site/themes/refonteaej/assets/images/logo_aej_new.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-    <!-- Testimonial End -->
-
+ 
+<br><br>
+  
 
     <!-- Section Bas de page debut -->
     @include('/layouts/footer')

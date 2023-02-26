@@ -89,12 +89,12 @@
                         </div>
                         <div class="ps-4">
                             <h3>Plus de </h3>
-                            <h3>don</h3>
+                            <h3>soutient</h3>
                             <h3 class="mb-0">Fait</h3>
                         </div>
                     </div>
                     <div class="col">
-                        <a class="btn btn-primary py-3 px-5" href="{{ url('/don') }}">Faite un don</a>
+                        <a class="btn btn-primary py-3 px-5" href="{{ url('/don') }}">SOUTIENT UN ENTREPRENEUR</a>
                       
                     </div>
                    
