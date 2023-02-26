@@ -69,9 +69,9 @@ Route::get('/benevole', function () {
 //action
 Route::get('/action', function () {
     return view('action',['PageName' => 'action']);
-});//action
-Route::get('/action', function () {
-    return view('action',['PageName' => 'action']);
+});//programme
+Route::get('/programmes', function () {
+    return view('programme',['PageName' => 'programme']);
 });
 Route::get('/team', function () {
     return view('team',['PageName' => 'team']);
