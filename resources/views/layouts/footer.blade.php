@@ -3,17 +3,17 @@
 
 
     <!-- Section Bas de page debut -->
-    <div class="container-fluid bg-dark text-body footer mt-0 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid text-center bg-dark text-body footer mt-0 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-5">
+                <div class="col-lg-4 col-md-5">
                     <h4 class="section-title text-light mb-4">Adresse</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt bouton me-3"></i>Angré 8ème
                         Tranche, Cocody</p>
                     <p class="mb-2"><i class="fa fa-phone-alt  bouton me-3"></i>+225 07 68 73 47 28</p>
                     <p class="mb-2"><i
-                            class="fa fa-envelope bouton me-3"></i>fondationgloryimpactgroup@gmail.com</p>
-                    <div class="d-flex pt-2">
+                            class="fa fa-envelope bouton me-2"></i>fondationgloryimpactgroup@gmail.com</p>
+                    <div class="d-flex pt-3">
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href="https://web.facebook.com/profile.php?id=100086391491746&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>

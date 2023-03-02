@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="{{ asset('assets/img/prestations/prestation-4.jpg') }}"
+                        <img class="img-fluid" src="{{ asset('assets/img/about/enfant.jpg') }}"
                             alt="">
                         <img class="img-fluid" src="{{ asset('assets/img/about/enfant.jpg') }}"
                             alt="">
@@ -177,7 +177,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Notre Dynamique Equipe</h4>
-                <h1 class="display-5 mb-4">Une Equipe créative pour donner vie aux projets de vos rêves</h1>
+                <h1 class="display-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
             </div>
             <div class="row g-0 team-items">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -199,7 +199,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/pdg.jpg') }}" alt="">
+                            <img class="img-fluid" src="https://gloryimpactgroup.org/assets/img/personnel/pdg.jpg" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -215,7 +215,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/dg.jpg') }}" alt="">
+                            <img class="img-fluid" src="https://gloryimpactgroup.org/assets/img/personnel/dg.jpg" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>

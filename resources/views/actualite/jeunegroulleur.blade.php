@@ -96,22 +96,25 @@
       </div>
     
     <!-- Carousel End -->
+    <br>
    <div class="about_section layout_padding">
     <div class="container">
        <div class="row">
           <div class="col-lg-8 col-sm-12">
     
-             <span class="grop-post_date"><i class="bi bi-clock"></i> 18 Février 2023</span>
-             <h2 class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</h2>
+             <span class="grop-post_date"><i class="bi bi-clock"></i> 25 Décembre 2022</span>
+             <h2 class="text-primary">Déjeuner de Noel avec les jeunes battants et grouilleurs qui a eu lieu à Cocody II Plateaux.</h2>
              <hr >
-             <p class="lorem_text">Ce samedi 18 Février 2023, nous avons reçu les coachs José PINHEIRO, ex coach pour l'académie de la Fondation du Real Madrid et actuel Directeur de football de l'AS Casinca en France
-                et son collaborateur Paul-Alexandre MANIERE, diplômé de l’UEFA B et Éducateur (U11 - U14) de l’AS Casinca en France.<br>
-                Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact Group. <br>
-                Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4.<br>
-                Durant cet échange, C'est avec une grande passion que les coachs nous ont partagé le contenu des activités et ateliers qui meubleront les séances d'entrainement.<br>
-                La Fondation Glory Impact Group, soucieuse de l'épanouissement et de la promotion des jeunes talents offre également l'opportunité à des jeunes footballeurs orphelins et des jeunes footballeurs présentant des difficultés financières à participer gratuitement à ce stage.<br>
-                Aussi, la Fondation Glory Impact Group permettra à des jeunes coachs locaux qui désirent apprendre d'assister à ce stage afin de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux.<br>
-                A la suite de ce premier stage de formation, d'autres projets d'envergures sont prévus dans le but de professionnaliser et rendre compétitifs nos talents locaux.</p>
+             <p class="lorem_text">Le dimanche 25 décembre 2022, La Fondation Glory Impact Group a organisé "Le Déjeuner de Noël avec des jeunes battants et grouilleurs". 
+              Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout, et cela à partir de cette année, aux jeunes vendeurs ambulants, les "djosseurs de namman" les "aide-maçons" , les vendeuses de fruits, les coiffeuses, les couturières, les restauratrices etc... issus de familles défavorisées ou démunies. Il est donc destiné à ces jeunes gens conscients de la précarité sociale dans laquelle ils vivent mais qui se débrouillent tant bien que mal pour en sortir. 
+              Le president de la Fondation  M Jules Ekanza Gouhan, accompagné de son épouse Becely Kecys Gouhan, vice-présidente de la Fondation Glory Impact Group, ont partagé un repas avec une centaine de jeunes. Ils sont venus de différentes communes du District d’Abidjan.  
+              Au cours de cette agréable cérémonie, ils ont eu à les sensibiliser sur la nécessité pour eux d'avoir une idée novatrice à mettre en oeuvre : UN PROJET. Il est pour eux une voie qui leur permettra de sortir de la précarité, car forts de leurs bonnes dispositions d'esprit, ils sont capables de créer des entreprises, de vraies. Ils ont notamment eu à leur révéler leurs débuts, de lycéen et entrepreneur qui ont vendu du lait "caillé", du savon liquide, et bien d'autres expériences. 
+              Sans langue de bois, ils les ont exhorté à développer un mental fort et à vivre tels des "orphelins" qui n'ont que Dieu pour se réaliser. 
+              Nombreux sont ceux parmi eux qui nous ont exprimé leur désire de bien formaliser leurs activités mais qu'ils ne savent pas comment y arriver. 
+              La Fondation Glory Impact Group est la bonne adresse pour l'écoute, le suivi, l'assistance des jeunes désireux d'entreprendre, nous les avons ainsi rassurés. 
+              Cette petite fête que nous avons énormément appréciée pour sa sobriété, son sens et la mobilisation des jeunes est une institution: Rdv est pris pour 2023... Elle s'est terminée dans la joie. Nous avons posé ensemble pour une photo de famille. "Le Déjeuner de Noël des jeunes battants et grouilleurs" s'est tenu sur le terrain de basket des 2 plateaux, non loin de Sococé, à Cocody.
+              Fondation Glory Impact Group, Ensemble pour une jeunesse plus forte !!!
+              Bonne et Glorieuse année 2023 à toutes et à tous !!!</p>
           </div>
       
           <div class="col-lg-4 col-sm-12">

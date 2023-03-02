@@ -29,7 +29,7 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="{{ url('/') }}" class="nav-item nav-link @if ($PageName=="home")active @endif">Acceuil</a>
             <a href="{{ url('/about') }}" class="nav-item nav-link @if ($PageName=="about")active @endif">A Propos De Nous</a>
-            <a href="{{ url('/') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Programmes</a>
+            <a href="{{ url('/programmes') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Programmes</a>
             <a href="{{ url('/actualite') }}" class="nav-item nav-link @if ($PageName=="")active @endif">Actualités</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Actions</a>

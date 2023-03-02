@@ -77,7 +77,7 @@
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
                                     style="width: 55px; height: 55px;">
                                     <i class="fa fa-2x fa-envelope-open text-primary"></i>
                                 </div>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="col-12">
                             <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
                                     style="width: 55px; height: 55px;">
                                     <i class="fa fa-phone-alt text-primary"></i>
                                 </div>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="col-12">
                             <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
                                     style="width: 55px; height: 55px;">
                                     <i class="fa fa-2x fa-phone-alt text-primary"></i>
                                 </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-12">
                             <div class="bg-light d-flex align-items-center w-100 p-4">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
                                     style="width: 55px; height: 55px;">
                                     <i class="fa fa-envelope-open text-primary"></i>
                                 </div>

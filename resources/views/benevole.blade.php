@@ -3,11 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
     <title>Bénévole</title>
-=======
-    <title>bénévole</title>
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="{{asset('assets/img/carousels/logo7.png')}}" rel="icon">
     <meta content="" name="keywords">
@@ -49,20 +45,12 @@
                 background-repeat:no-repeat;
                 background-position:center;">
         <div class="container py-5">
-<<<<<<< HEAD
             <h1 class="display-1 text-white animated slideInDown">Bénévole</h1>
-=======
-            <h1 class="display-1 text-white animated slideInDown">Contacts</h1>
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Accueil</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-<<<<<<< HEAD
                     <li class="breadcrumb-item text-primary active" aria-current="page">Bénévole</li>
-=======
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Contacts</li>
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                 </ol>
             </nav>
         </div>
@@ -77,7 +65,6 @@
                 <h4 class="section-title">Rejoignez nous</h4>
                
             </div>
-<<<<<<< HEAD
             <div class="container">
                 <p class="text-ini" style="text-align: initial">     Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider les jeunes en situation de vulnérabilité en Côte d'Ivoire. Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes, voici quelques façons de nous rejoindre :
 
@@ -90,9 +77,6 @@
                     Nous sommes impatients de travailler avec vous pour faire une différence dans la vie des jeunes en Côte d'Ivoire. Rejoignez-nous dès aujourd'hui !
                </p>
             </div>
-=======
-
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
 
 
 
@@ -103,11 +87,8 @@
             <div class="container-xxl py-5">
                 <div class="container">
                     <div class="row g-5">
-<<<<<<< HEAD
                      
                       
-=======
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="about-img" style="background: color:#4169E1;">
                                 <img decoding="async" width="500" height="400" src="{{ asset('assets/img/carousels/benevo.jpg') }}" class="attachment-large size-large" alt="" loading="lazy">
@@ -122,25 +103,16 @@
                                 <div class="row g-3">
                                     <div class="col-12 col-sm-6">
                                         <input name="name" type="text" class="form-control"
-<<<<<<< HEAD
                                             placeholder="Votre Nom " style="height: 55px;">
                                     </div>
                                     <div class="col-12 col-sm-6">
                                         <input name="prenom" type="text" class="form-control"
                                             placeholder=" Prénom(s)" style="height: 55px;">
-=======
-                                            placeholder="Votre Nom et Prénom(s)" style="height: 55px;">
-                                    </div>
-                                    <div class="col-12 col-sm-6">
-                                        <input name="email" type="email" class="form-control" placeholder="Votre Adresse mail"
-                                            style="height: 55px;">
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                                     </div>
                                     <div class="col-12 col-sm-6">
                                         <input type="text" name="contact" class="form-control" placeholder="Votre Contact"
                                             style="height: 55px;">
                                     </div>
-<<<<<<< HEAD
                                     <div class="col-12 col-sm-6">
                                         <input name="adresse" type="text" class="form-control"
                                             placeholder="Votre adresse" style="height: 55px;">
@@ -154,42 +126,19 @@
                                             style="height: 55px;">
                                     </div>
                                    
-=======
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                         
                                     <div class="col-12">
                                         <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-12">
-<<<<<<< HEAD
                                         <button class="btn btn-primary w-100 py-3" type="submit">Rejoignez-nous</button>
-=======
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Prendre un
-                                            Rendez-vous</button>
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                                     </div>
                                 </div>
                             </form>
                         
                             
                         </div>
-<<<<<<< HEAD
                     
-=======
-                        <div class="container">
-                            <p class="text-ini" style="text-align: initial">     Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider les jeunes en situation de vulnérabilité en Côte d'Ivoire. Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes, voici quelques façons de nous rejoindre :
-
-                                Devenez bénévole : nous avons besoin de personnes dévouées pour nous aider à organiser des événements, collecter des fonds et soutenir nos programmes.
-                                
-                                Faites un don : chaque petit geste compte et peut aider à changer la vie d'un jeune en difficulté. Nous acceptons les dons de toutes tailles et sommes reconnaissants de toute aide que vous pouvez nous apporter.
-                                
-                                Partagez notre histoire : aidez-nous à sensibiliser les gens à notre cause en partageant notre histoire et notre travail sur les réseaux sociaux et avec vos amis et votre famille.
-                                
-                                Nous sommes impatients de travailler avec vous pour faire une différence dans la vie des jeunes en Côte d'Ivoire. Rejoignez-nous dès aujourd'hui !
-                           </p>
-                        </div>
-                      
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                     </div>
                 </div>
             </div>

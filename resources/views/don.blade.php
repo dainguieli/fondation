@@ -179,8 +179,7 @@
 
         </div>
         <br>
-            <!-- Service Start -->
-    <div class="container-xxl py-5">
+       <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">LE BIEN QUE NOUS APPORTONS</h4>
@@ -194,10 +193,97 @@
     <!-- Service End -->
         <strong><p class="text-center mx-auto mb-5 wow fadeInUp">Ces réalisations ont permis d'avoir un impact positif sur la vie de nombreux jeunes en Côte d'Ivoire et de les aider à surmonter les obstacles auxquels ils sont confrontés. Votre don peut aider la Fondation Glory Impact Group à continuer de réaliser ces actions importantes pour aider la jeunesse ivoirienne.</p></strong>
         <div class="bg-light text-center p-5.9">
-        <p  id="don"class="text-primary grop-txt-block grop-box-txt text-center mx-auto mb-5 wow fadeInUp">Faites votre dépôt sur l'un des numéros suivants : +225 00 49 00 00 00 ou +225 00 00 00 00 00</p>
+     <!--   <p  id="don"class="text-primary grop-txt-block grop-box-txt text-center mx-auto mb-5 wow fadeInUp">Faites votre dépôt sur l'un des numéros suivants : +225 00 49 00 00 00 ou +225 00 00 00 00 00</p>-->
+
+
+
+
+
         </div>
     </div>
-
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <h2 id="heading">SOUTENIR UN ENTREPRENEUR</h2>
+                <p>Remplissez tous les champs du formulaire pour passer à l'étape suivante.</p>
+                <form id="msform">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                         <li class="active bi bi-person-circle"><strong>Information personnelle</strong></li>
+                       
+                        <li class="bi bi-gift"><strong>soutenir</strong></li>
+                        <li class="bi bi-check-circle-fill"><strong>Finish</strong></li>
+                    </ul>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br> <!-- fieldsets -->
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Information personnelle:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Étape 1 - 3</h2>
+                                </div>
+                            </div> <label class="fieldlabels">Nom: *</label> <input type="text" name="name" placeholder="Nom" /> 
+                            <label class="fieldlabels">Prénoms: *</label> <input type="text" name="prenom" placeholder="prenom" /> 
+                            <label class="fieldlabels">Nom de l'entreprise: *</label> <input type="text" name="entreprise" placeholder="entreprise" /> 
+                            <label class="fieldlabels">Contact No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> 
+                          
+                        </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Soutenir un entrepreneur:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Étape 2 - 3</h2>
+                                </div>
+                            </div> <label class="fieldlabels">Combien voulez-vous donner ?: *</label> <input type="text" name="don" placeholder="faite un don" /> 
+                            <label class="fieldlabels">Par quel moyen ?: *</label>     <select class="form-select"  aria-label="Default select example" name="mobile" class="input" required>
+                                <option selected>mobile money </option>
+                                <option value="Orange">Orange</option>
+                                <option value="Mtn">Mtn</option>
+                                <option value="Moov">Moov</option>
+                            </select>
+                            <label class="fieldlabels">Numero: *</label> <input type="text" name="numero" placeholder="numero" /> 
+                           
+                          
+                        </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Terminer:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Étape 3 - 3</h2>
+                                </div>
+                            </div> <br><br>
+                            <h2 class="purple-text text-center"><strong>SUCCÈS !</strong></h2> <br>
+                            <div class="row justify-content-center">
+                                <div class="col-3"> 
+                                    <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXstOeXEcnFJ0h_NGnrfE27N_XAFsr9T8tqw&usqp=CAU"
+                                alt="">
+                                </div>
+                            </div> <br><br>
+                            <div class="row justify-content-center">
+                                <div class="col-7 text-center">
+                                    <h5 class="purple-text text-center">Merci pour le don</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Section Bas de page debut -->
     @include('/layouts/footer')

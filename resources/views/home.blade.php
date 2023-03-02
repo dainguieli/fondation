@@ -38,7 +38,50 @@
     @include('/layouts/header')
     @include('sweetalert::alert')
 
-
+    <style>
+        .carousel-inner {
+          padding: 1em;
+        }
+        .card {
+          margin: 0 0.5em;
+          box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+          border: none;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+          background-color: #e1e1e1;
+          width: 6vh;
+          height: 6vh;
+          border-radius: 50%;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        @media (min-width: 768px) {
+          .carousel-item {
+            margin-right: 0;
+            flex: 0 0 33.333333%;
+            display: block;
+          }
+          .carousel-inner {
+            display: flex;
+          }
+        }
+        .card .img-wrapper {
+            max-width: 100%;
+            height: 13em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card img {
+            max-height: 110%;
+        }
+        @media (max-width: 767px) {
+          .card .img-wrapper {
+            height: 17em;
+          }
+        }
+       </style>
 <!--
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
@@ -89,24 +132,40 @@
           
             </div>
             <div class="owl-carousel-item position-relative"
-                data-dot="<img src='{{ asset('assets/img/carousels/ecole.jpg') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/carousels/ecole.jpg') }}" class="d-block w-100" alt="...">
+                data-dot="<img src='{{ asset('assets/img/carousels/jeuness1.png') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/carousels/jeuness1.png') }}" class="d-block w-100" alt="...">
                     
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Soutenez l'autonomie des jeunes en Côte d'Ivoire</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                    Hic eveniet explicabo maiores provident iusto consequatur. Officiis voluptas reprehenderit,
-                                     cupiditate autem pariatur dolore veritatis itaque nam. Necessitatibus unde non minus tenetur.</p>
-                                <a href="{{ url('/don') }}"
-                                    class="btn btn-primary py-3 px-5 animated slideInLeft">Faite un don</a>
+                            <div class="col-10 col-lg-18">
+                                <h1 class="display-1 text-white animated slideInDown">Encourager La jeunesse à s'instruire et à se cultiver,c'est bâtir une socité meilleure. </h1>
+
+                              
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="owl-carousel-item position-relative"
+            data-dot="<img src='{{ asset('assets/img/carousels/ecole.jpg') }}'>">
+            <img class="img-fluid" src="{{ asset('assets/img/carousels/ecole.jpg') }}" class="d-block w-100" alt="...">
+                
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-1 text-white animated slideInDown">Soutenez l'autonomie des jeunes en Côte d'Ivoire</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Hic eveniet explicabo maiores provident iusto consequatur. Officiis voluptas reprehenderit,
+                                 cupiditate autem pariatur dolore veritatis itaque nam. Necessitatibus unde non minus tenetur.</p>
+                            <a href="{{ url('/don') }}"
+                                class="btn btn-primary py-3 px-5 animated slideInLeft">Faite un don</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             <div class="owl-carousel-item position-relative"
                 data-dot="<img src='{{ asset('assets/img/carousels/jeunesse.jpg') }}'>">
                 <img class="img-fluid" src="{{ asset('assets/img/carousels/jeunesse.jpg') }}"
@@ -201,6 +260,7 @@
                 <h4 class="section-title">NOS RECENTES RÉALISATIONS</h4>
                
             </div>
+            
             <div class="row g-0 team-items">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <!-- <div class="team-item position-relative">
@@ -219,8 +279,8 @@
                     </div> -->
                 </div>
            
-            
-
+          
+<!--
             <div class="row g-0 team-items">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
@@ -232,19 +292,11 @@
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
                             <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
-<<<<<<< HEAD
 
                         
 
                             <a  href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
 
-=======
-<<<<<<< HEAD
-                            <a  href="{{ url('/about') }}"> <span class="text-primary">Savoir plus</span></a>  
-=======
-                            <a  href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
                         </div>
                     </div>
                 </div>
@@ -295,7 +347,67 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
         </div>
     </div>
- 
+-->
+<div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+    <div class="carousel-inner " >
+        <div class="carousel-item team-item active">
+            <div class="card ">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/habitat/donation.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                    <h5 class="card-title  text-primary">Card title 1</h5>
+                    <p class="mt-2">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
+                        <p class="mt-2">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique. 
+l'objectif final de ce partenariat est d'aboutir à l….</p>
+                    <a href="#" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item team-item" >
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/chronos.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content Some quick example text.</p>
+                    <a href="#" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item team-item" >
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the card's content.
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item team-item" >
+            <div class="card" style=" margin: 0 0.5em;
+            box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+            border: none;">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/coachs.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</h5>
+                    <p class="card-text">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque.Le président de la fondation a été très heureux de recevoir ce jeune 
+                        créateur qui propose de beaux articles. Des engagements forts ont été pris pour…</p>
+                    <a href="{{ url('/coachs_Jos') }}" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
          <!-- Programme End -->
 
@@ -424,7 +536,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
     <!-- Appointment End -->
  <!-- Rejoin nous Start -->
  
-     
+   
     <!-- Testimonial End -->
     <div class="bg-light text-center p-4">
         <div class="container-xxl py-5">
@@ -440,22 +552,127 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
           
         </div>
-<<<<<<< HEAD
 
  
 
     <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
 
-=======
-<<<<<<< HEAD
-    <a href="{{ url('/don') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
-=======
-    <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
->>>>>>> 5e5aa36 (	modified:   app/Http/Controllers/ContactController.php)
->>>>>>> 3d972c8517d33dbc6441ae865d13955fdfff0bca
     </div>
-   
+  
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
+    </div>
+    <div class="bg-light text-center container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 team-items">
+            
+                <br>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/1.png') }}"
+                                alt="">
+                            
+                        </div>
+                   
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/2.png') }}"
+                            alt="">
+                          <br>
+                        </div>
+                     
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/3.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div> 
+    
+                  <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/4.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img width="200" height="200"  src="{{ asset('assets/img/partenaire/5.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                       
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img width="100" height="100" src="{{ asset('assets/img/partenaire/6.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                       
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                         <img width="100" height="100" src="{{ asset('assets/img/partenaire/7.jpg') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                         <img width="100" height="100" src="{{ asset('assets/img/partenaire/8.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                         <img width="100" height="100" src="{{ asset('assets/img/partenaire/9.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                         <img width="100" height="100" src="{{ asset('assets/img/partenaire/10.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+                        
+                        </div>
+                    
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+
+    
+ 
+<br><br>
+  
 
     <!-- Section Bas de page debut -->
     @include('/layouts/footer')
@@ -487,3 +704,4 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
 </body>
 
 </html>
+ 
