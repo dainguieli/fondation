@@ -118,8 +118,13 @@
                                             placeholder="Votre adresse" style="height: 55px;">
                                     </div>
                                     <div class="col-12 col-sm-6">
+<<<<<<< HEAD
                                         <input name="adresse" type="text" class="form-control"
                                             placeholder="Votre adresse" style="height: 55px;">
+=======
+                                        <input name="métier" type="text" class="form-control"
+                                            placeholder="Votre metier" style="height: 55px;">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                                     </div>
                                     <div class="col-12 col-sm-6">
                                         <input name="email" type="email" class="form-control" placeholder="Votre  mail"

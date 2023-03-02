@@ -6,7 +6,11 @@
     <div class="container-fluid text-center bg-dark text-body footer mt-0 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
+<<<<<<< HEAD
                 <div class="col-lg-4 col-md-5">
+=======
+                <div class="col-lg-3 col-md-5">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                     <h4 class="section-title text-light mb-4">Adresse</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt bouton me-3"></i>Angré 8ème
                         Tranche, Cocody</p>

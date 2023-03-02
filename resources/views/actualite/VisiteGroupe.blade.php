@@ -37,7 +37,10 @@
 <body>
     @include('/layouts/header')
     @include('sweetalert::alert')
+<<<<<<< HEAD
     
+=======
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -94,7 +97,10 @@
       </div>
     
     <!-- Carousel End -->
+<<<<<<< HEAD
     <br>
+=======
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
    <div class="about_section layout_padding">
     <div class="container">
        <div class="row">
@@ -112,8 +118,23 @@
                 Aussi, la Fondation Glory Impact Group permettra à des jeunes coachs locaux qui désirent apprendre d'assister à ce stage afin de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux.<br>
                 A la suite de ce premier stage de formation, d'autres projets d'envergures sont prévus dans le but de professionnaliser et rendre compétitifs nos talents locaux.</p>
           </div>
+<<<<<<< HEAD
          <!-- article recent-->
 @include('/layouts/ariclesrecents')
+=======
+      
+          <div class="col-lg-4 col-sm-12">
+             
+             <h1 class="text-primary">ARTICLES RÉCENTS</h1>
+             <div class="read_bt_1"><a href="#">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</a></div>
+             <hr >
+             <div class="read_bt_1"><a href="#">le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</a></div>
+             <hr >
+             <div class="read_bt_1"><a href="#">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</a></div>
+             <hr >
+            
+          </div>
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
        </div>
     </div>
  </div>

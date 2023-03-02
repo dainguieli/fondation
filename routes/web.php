@@ -37,9 +37,16 @@ Route::get('/don', function () {
     return view('don',['PageName' => 'don']);
 });
 
+<<<<<<< HEAD
 Route::get('/contact', function () {
     return view('contact',['PageName' => 'contact']);
 });
+=======
+Route::get('/actualite', function () {
+    return view('actualite',['PageName' => 'actualite']);
+});
+
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
 //actualite
 Route::get('/actualite', function () {
     return view('actualite',['PageName' => 'actualite']);
@@ -47,6 +54,7 @@ Route::get('/actualite', function () {
 Route::get('/coachs_Jos', function () {
     return view('actualite.coachs_Jos',['PageName' => 'coachs_Jos']);
 });
+<<<<<<< HEAD
 
 Route::get('/associationsfemmes', function () {
     return view('actualite.associationsfemmes',['PageName' => 'associationsfemmes']);
@@ -60,6 +68,11 @@ Route::get('/VisiteGroupe', function () {
 Route::get('/fondationFrancisCJ', function () {
     return view('actualite.fondationFrancisCJ',['PageName' => 'fondationFrancisCJ']);
 });
+=======
+Route::get('/VisiteGroupe', function () {
+    return view('actualite.VisiteGroupe',['PageName' => 'VisiteGroupe']);
+});
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
 
 Route::get('/jeunegroulleur', function () {
     return view('actualite.jeunegroulleur',['PageName' => 'jeunegroulleur']);

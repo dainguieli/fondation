@@ -558,6 +558,7 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
     <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
 
     </div>
+<<<<<<< HEAD
   
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
         <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
@@ -567,6 +568,19 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
             <div class="row g-0 team-items">
             
                 <br>
+=======
+    <br>
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
+       
+    </div>
+    <div class="bg-light text-center container-xxl py-5">
+        <div class="container">
+           
+            
+
+            <div class="row g-0 team-items">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class=" position-relative">
                         <div class="position-relative">
@@ -598,7 +612,19 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                      
                     </div>
                 </div> 
+<<<<<<< HEAD
     
+=======
+                <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
+                    <div class=" position-relative">
+                        <div class="position-relative">
+                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/fondationjs.png') }}"
+                            alt="">
+                        </div>
+                     
+                    </div>
+                </div>
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                   <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
                     <div class=" position-relative">
                         <div class="position-relative">
@@ -611,7 +637,11 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class=" position-relative">
                         <div class="position-relative">
+<<<<<<< HEAD
                             <img width="200" height="200"  src="{{ asset('assets/img/partenaire/5.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+=======
+                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/296734966_635127788185801_1636939761000945103_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFLYaeJQIy3IbZOiP3NCFy_TWEz-QzkYAxNYTP5DORgDMkF2CmksAbQw9SWRw1j3WMsd3GcM1CUldauxa1l5OLz&_nc_ohc=1eaVqyR-Ww8AX91xGTr&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDTPPPVlNYT0hKZbPLKHiXRh3YniEUzRe9Gfl54SxwqFw&oe=63FF5456" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                        
                         </div>
@@ -621,7 +651,11 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class=" position-relative">
                         <div class="position-relative">
+<<<<<<< HEAD
                             <img width="100" height="100" src="{{ asset('assets/img/partenaire/6.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+=======
+                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/326055544_5765127286928238_8934736117882148358_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEmsP_RHEYqUMSqUlNALzvJZ7XqCn0Pus5nteoKfQ-6znPskSwfxc0qbYRjWvNhH092zrV9b7PF27hnhPXwevgR&_nc_ohc=lHN0rgVtx-AAX-tEvE1&tn=mc-xjTzR46K2Jven&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDCQcjBw76wm98CDiGu7X1wKl6X3_MESJeQhXJr4CKvbg&oe=63FF3E3E" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                        
                         </div>
@@ -631,6 +665,7 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class=" position-relative">
                         <div class="position-relative">
+<<<<<<< HEAD
                          <img width="100" height="100" src="{{ asset('assets/img/partenaire/7.jpg') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
                         
                         </div>
@@ -659,6 +694,9 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                     <div class=" position-relative">
                         <div class="position-relative">
                          <img width="100" height="100" src="{{ asset('assets/img/partenaire/10.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+=======
+                         <img width="100" height="100" src="https://www.agenceemploijeunes.ci/site/themes/refonteaej/assets/images/logo_aej_new.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                         </div>
                     
@@ -668,8 +706,11 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
  
 <br><br>
   

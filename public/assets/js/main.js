@@ -157,6 +157,7 @@ $(document).ready(function(){
     return false;
     })
     
+<<<<<<< HEAD
     });
 
 
@@ -193,3 +194,6 @@ $(document).ready(function(){
       } else {
         $(multipleCardCarousel).addClass("slide");
       }
+=======
+    });
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127

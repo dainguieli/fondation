@@ -96,12 +96,16 @@
       </div>
     
     <!-- Carousel End -->
+<<<<<<< HEAD
     <br>
+=======
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
    <div class="about_section layout_padding">
     <div class="container">
        <div class="row">
           <div class="col-lg-8 col-sm-12">
     
+<<<<<<< HEAD
              <span class="grop-post_date"><i class="bi bi-clock"></i> 25 Décembre 2022</span>
              <h2 class="text-primary">Déjeuner de Noel avec les jeunes battants et grouilleurs qui a eu lieu à Cocody II Plateaux.</h2>
              <hr >
@@ -115,6 +119,19 @@
               Cette petite fête que nous avons énormément appréciée pour sa sobriété, son sens et la mobilisation des jeunes est une institution: Rdv est pris pour 2023... Elle s'est terminée dans la joie. Nous avons posé ensemble pour une photo de famille. "Le Déjeuner de Noël des jeunes battants et grouilleurs" s'est tenu sur le terrain de basket des 2 plateaux, non loin de Sococé, à Cocody.
               Fondation Glory Impact Group, Ensemble pour une jeunesse plus forte !!!
               Bonne et Glorieuse année 2023 à toutes et à tous !!!</p>
+=======
+             <span class="grop-post_date"><i class="bi bi-clock"></i> 18 Février 2023</span>
+             <h2 class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</h2>
+             <hr >
+             <p class="lorem_text">Ce samedi 18 Février 2023, nous avons reçu les coachs José PINHEIRO, ex coach pour l'académie de la Fondation du Real Madrid et actuel Directeur de football de l'AS Casinca en France
+                et son collaborateur Paul-Alexandre MANIERE, diplômé de l’UEFA B et Éducateur (U11 - U14) de l’AS Casinca en France.<br>
+                Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact Group. <br>
+                Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4.<br>
+                Durant cet échange, C'est avec une grande passion que les coachs nous ont partagé le contenu des activités et ateliers qui meubleront les séances d'entrainement.<br>
+                La Fondation Glory Impact Group, soucieuse de l'épanouissement et de la promotion des jeunes talents offre également l'opportunité à des jeunes footballeurs orphelins et des jeunes footballeurs présentant des difficultés financières à participer gratuitement à ce stage.<br>
+                Aussi, la Fondation Glory Impact Group permettra à des jeunes coachs locaux qui désirent apprendre d'assister à ce stage afin de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux.<br>
+                A la suite de ce premier stage de formation, d'autres projets d'envergures sont prévus dans le but de professionnaliser et rendre compétitifs nos talents locaux.</p>
+>>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
           </div>
       
           <div class="col-lg-4 col-sm-12">
