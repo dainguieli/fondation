@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,32 +78,43 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div> -->
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative"
 
-                data-dot="<img src='https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/330080523_591476582832010_2895964468674220467_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH34rFb04kD9Lj4e1hXMze77xLlvMqdrF7vEuW8yp2sXoSDAsooWHfRe64CCsRPwr4dBrJawYC6uFXSJwuvXzwF&_nc_ohc=-d3qVBtI8EUAX-UVsmX&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfBvAu8DLiMxiUfc1Tf9Y0xPv4PKBWY5nC6vY-uFyNBPMw&oe=63FA1B4C'>">
-              <img  src="{{ asset('assets/img/about/habitat/about-2.jpg') }}" class="d-block w-100" alt="...">
-            </div>
       
-            <div class="owl-carousel-item position-relative"
-               
-                data-dot="<img src='https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/332027631_723862572477331_599335183062680629_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEqWTLTSQjLc3xuRER2GDYFmEGHjAvKp26YQYeMC8qnbnT7VmuyuCcjQ-ABp5jqHT2zMY-3-HRMag2EyWaDXUNN&_nc_ohc=eLiaAZckXWIAX8c81sP&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfApEZ4b4Tvxre671c6PXkmVsnzhfike-fnPdHyJn_sW_w&oe=63FB1415'>">
-                <img class="img-fluid" src="https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/332027631_723862572477331_599335183062680629_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEqWTLTSQjLc3xuRER2GDYFmEGHjAvKp26YQYeMC8qnbnT7VmuyuCcjQ-ABp5jqHT2zMY-3-HRMag2EyWaDXUNN&_nc_ohc=eLiaAZckXWIAX8c81sP&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfApEZ4b4Tvxre671c6PXkmVsnzhfike-fnPdHyJn_sW_w&oe=63FB1415" class="d-block w-100" alt="...">
-                    
-          
+    <!-- Carousel Start -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <img src="{{ asset('assets/img/carousels/coachs_Jos/1.jpg') }}"class="d-block w-100" alt="...">
             </div>
-            <div class="owl-carousel-item position-relative"
-                data-dot="<img src='https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/331245462_524297219816402_2556983193473060101_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHLCsUoN3WoHVqzmv71xXMtuZzp1caee9W5nOnVxp571ckl_Mro6oeXWRm-GQzJZkCmC8TBpXBYxThLN7A--1bm&_nc_ohc=0plsdBynpL8AX_55CFX&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfDI_tcKZFa3YQZmPF8ivH6IEjej4Vs9YUNKjMqV28m5Ag&oe=63FB0AEB'>">
-                <img class="img-fluid" src="https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/331245462_524297219816402_2556983193473060101_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHLCsUoN3WoHVqzmv71xXMtuZzp1caee9W5nOnVxp571ckl_Mro6oeXWRm-GQzJZkCmC8TBpXBYxThLN7A--1bm&_nc_ohc=0plsdBynpL8AX_55CFX&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfDI_tcKZFa3YQZmPF8ivH6IEjej4Vs9YUNKjMqV28m5Ag&oe=63FB0AEB"
-
-                    alt="">
-               
+      <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/coachs_Jos/2.jpg') }}" class="d-block w-100" alt="...">
             </div>
-           
-        </div>
-    </div>
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/coachs_Jos/3.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+            
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/coachs_Jos/4.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/coachs_Jos/5.jpg') }}"
+               class="d-block w-100" alt="...">
+            </div>
+ 
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    
+  </div>
     <!-- Carousel End -->
    <div class="about_section layout_padding">
     <div class="container">
@@ -113,28 +124,25 @@
              <span class="grop-post_date"><i class="bi bi-clock"></i> 18 Février 2023</span>
              <h2 class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</h2>
              <hr >
-             <p class="lorem_text">Ce samedi 18 Février 2023, nous avons reçu les coachs José PINHEIRO, ex coach pour l'académie de la Fondation du Real Madrid et actuel Directeur de football de l'AS Casinca en France
-                et son collaborateur Paul-Alexandre MANIERE, diplômé de l’UEFA B et Éducateur (U11 - U14) de l’AS Casinca en France.<br>
-                Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact Group. <br>
-                Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4.<br>
-                Durant cet échange, C'est avec une grande passion que les coachs nous ont partagé le contenu des activités et ateliers qui meubleront les séances d'entrainement.<br>
-                La Fondation Glory Impact Group, soucieuse de l'épanouissement et de la promotion des jeunes talents offre également l'opportunité à des jeunes footballeurs orphelins et des jeunes footballeurs présentant des difficultés financières à participer gratuitement à ce stage.<br>
-                Aussi, la Fondation Glory Impact Group permettra à des jeunes coachs locaux qui désirent apprendre d'assister à ce stage afin de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux.<br>
-                A la suite de ce premier stage de formation, d'autres projets d'envergures sont prévus dans le but de professionnaliser et rendre compétitifs nos talents locaux.</p>
-          </div>
+             <p style="text-align: justify">La Fondation Glory Impact Group a reçu ce samedi 18 février 2023 les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE dans le cadre d'un stage de formation de football organisé par Bright Academy. Cet événement a été sponsorisé par la Fondation Glory Impact Group, une organisation qui s'engage pour l'épanouissement et la promotion des jeunes talents.<br><br>
+
+              José PINHEIRO est un ancien coach pour l'académie de la Fondation du Real Madrid et actuel Directeur de football de l'AS Casinca en France. Son collaborateur Paul-Alexandre MANIERE, quant à lui, est diplômé de l'UEFA B et éducateur pour les catégories U11 à U14 de l'AS Casinca en France. Les deux coachs internationaux ont partagé leur passion et leur savoir-faire avec les participants tout au long de cet événement.
+              
+              <br><br>  Le stage de formation de football s'est déroulé du lundi 20 au samedi 25 février 2023 à Marcory Zone 4. Les activités et ateliers proposés lors des séances d'entraînement ont été très enrichissants pour les participants. La Fondation Glory Impact Group a également offert l'opportunité à des jeunes footballeurs orphelins et des jeunes footballeurs présentant des difficultés financières de participer gratuitement à ce stage.<br><br> De plus, la fondation a permis à des jeunes coachs locaux de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux en assistant au stage.
+              
+              Ce premier stage de formation n'est que le début de projets plus ambitieux prévus par la Fondation Glory Impact Group. L'organisation est déterminée à professionnaliser et rendre compétitifs les talents locaux, dans le but de les aider à atteindre leur plein potentiel dans le monde du football.</p>
+                <hr >
+                <div class="d-flex ">
+                  <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1"  style="color: #de1a20 " href="https://web.facebook.com/profile.php?id=100086391491746&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1" style="color: #de1a20 " href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-outline-body me-0"  style="color: #de1a20 " href=""><i class="fab fa-linkedin-in"></i></a>
+                  <br><br>
+              </div>
       
-          <div class="col-lg-4 col-sm-12">
-             
-             <h1 class="text-primary">ARTICLES RÉCENTS</h1>
-             <div class="read_bt_1"><a href="#">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</a></div>
-             <hr >
-             <div class="read_bt_1"><a href="#">le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</a></div>
-             <hr >
-             <div class="read_bt_1"><a href="#">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</a></div>
-             <hr >
-            
-          </div>
+      
        </div>
+       @include('/layouts/ariclesrecents')
     </div>
  </div>
  <!-- about section end --> 

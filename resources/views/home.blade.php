@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,48 +39,48 @@
     @include('sweetalert::alert')
 
     <style>
-        .carousel-inner {
-          padding: 1em;
-        }
-        .card {
-          margin: 0 0.5em;
-          box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-          border: none;
-        }
-        .carousel-control-prev,
-        .carousel-control-next {
-          background-color: #e1e1e1;
-          width: 6vh;
-          height: 6vh;
-          border-radius: 50%;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-        @media (min-width: 768px) {
-          .carousel-item {
-            margin-right: 0;
-            flex: 0 0 33.333333%;
-            display: block;
-          }
-          .carousel-inner {
-            display: flex;
-          }
-        }
-        .card .img-wrapper {
-            max-width: 100%;
-            height: 13em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .card img {
-            max-height: 110%;
-        }
-        @media (max-width: 767px) {
-          .card .img-wrapper {
-            height: 17em;
-          }
-        }
+       .carousel-inner {
+  padding: 1em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
        </style>
 <!--
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -155,7 +155,7 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Soutenez l'autonomie des jeunes en Côte d'Ivoire</h1>
+                            <h1 class="display-1 text-white animated slideInDown">Soutenir l'autonomie des jeunes en Côte d'Ivoire</h1>
                             <p class="fs-5 fw-medium text-white mb-4 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Hic eveniet explicabo maiores provident iusto consequatur. Officiis voluptas reprehenderit,
                                  cupiditate autem pariatur dolore veritatis itaque nam. Necessitatibus unde non minus tenetur.</p>
@@ -180,7 +180,7 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Devenez bénévole</h1>
+                            <h1 class="display-1 text-white animated slideInDown">Devenir bénévole</h1>
                             <p class="fs-5 fw-medium text-white mb-4 pb-3">Nous avons besoin de votre aide pour faire avancer notre mission !
                                  Si vous partagez nos valeurs et que vous souhaitez 
                                  vous engager pour la jeunesse en difficulté, devenez bénévole de 
@@ -230,23 +230,23 @@
         <div class="content">
             <div class="box">
                 <div class="icon"><i class="bi bi-calendar-week"></i></div>
-                <div class="counter">724</div>
+                <div class="counter" data-toggle="counter-up">724</div>
                 <div class="text">Programmes Phares</div>
             </div>
             <div class="box">
                 <div class="icon"><i class="fa fa-users"></i></div>
-                <div class="counter">508</div>
+                <div class="counter " data-toggle="counter-up">508</div>
                 <div class="text">Volontaires</div>
             </div>
             <div class="box">
                 <div class="icon"><i class="bi bi-easel"></i></div>
                
-                <div class="counter">724</div>
+                <div class="counter"data-toggle="counter-up">724</div>
                 <div class="text">Représentations</div>
             </div>
             <div class="box">
                 <div class="icon"><i class="fa fa-gift"></i></div>
-                <div class="counter">72</div>
+                <div class="counter" data-toggle="counter-up">72</div>
                 <div class="text">Bénéficiaires</div>
             </div>
         </div>
@@ -348,56 +348,71 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
         </div>
     </div>
 -->
+
 <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-    <div class="carousel-inner " >
-        <div class="carousel-item team-item active">
-            <div class="card ">
-                <div class="img-wrapper"><img src="{{ asset('assets/img/about/habitat/donation.jpg') }}" class="d-block w-100" alt="..."> </div>
-                <div class="card-body">
-                    <h5 class="card-title  text-primary">Card title 1</h5>
-                    <p class="mt-2">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                        <p class="mt-2">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique. 
-l'objectif final de ce partenariat est d'aboutir à l….</p>
-                    <a href="#" class="btn btn-primary">Savoir plus</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item team-item" >
+    <div class="carousel-inner">
+        <div class="carousel-item active wow fadeInUp team-item">
             <div class="card">
-                <div class="img-wrapper"><img src="{{ asset('assets/img/about/chronos.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="{{ asset('assets/img/carousels/rencontre_comor/1.jpg') }}" class="d-block w-100" alt="..."> </div>
                 <div class="card-body">
-                    <h5 class="card-title text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content Some quick example text.</p>
-                    <a href="#" class="btn btn-primary">Savoir plus</a>
+                    <h5 class="card-title text-primary">La contribution de la Fondation Glory Impact Group à l'insertion socio-professionnelle des jeunes comoriens à travers l'entrepreneuriat</h5>
+                    <p class="card-text">Le lundi 27 février 2023, nous avons été reçus en audience par Son Excellence Monsieur DHOIHIR DHOULKAMAL, Ministre des Affaires Étrangères et de la Coopération Internationale… </p>
+                   <a href="{{ url('/rencontre_comor') }}" class="btn btn-primary">Savoir plus</a>
                 </div>
             </div>
         </div>
-        <div class="carousel-item team-item" >
+        <div class="carousel-item wow fadeInUp team-item ">
             <div class="card">
-                <div class="img-wrapper"><img src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/lentrepreneurM.jpg') }}"  class="d-block w-100" alt="..."> </div>
                 <div class="card-body">
-                    <h5 class="card-title text-primary">le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the card's content.
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Savoir plus</a>
+                    <h5 class="card-title text-primary">Le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .
+                    </h5>
+                    <p class="card-text">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque M. Gouhan s'est déclaré très heureux de recevoir ce jeune créateur...</p>
+                   <a href="{{ url('/entrepreneurMs') }}" class="btn btn-primary">Savoir plus</a>
                 </div>
             </div>
         </div>
-        <div class="carousel-item team-item" >
-            <div class="card" style=" margin: 0 0.5em;
-            box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-            border: none;">
-                <div class="img-wrapper"><img src="{{ asset('assets/img/about/coachs.jpg') }}" class="d-block w-100" alt="..."> </div>
+        <div class="carousel-item  wow fadeInUp team-item">
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/carousels/visiteGroup/1.jpg') }}"  class="d-block w-100" alt="..."> </div>
                 <div class="card-body">
-                    <h5 class="card-title text-primary text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</h5>
-                    <p class="card-text">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque.Le président de la fondation a été très heureux de recevoir ce jeune 
-                        créateur qui propose de beaux articles. Des engagements forts ont été pris pour…</p>
-                    <a href="{{ url('/coachs_Jos') }}" class="btn btn-primary">Savoir plus</a>
+                    <h5 class="card-title text-primary">La Fondation Glory Impact Group a encouragé et donné des conseils aux élèves présentant des lacunes</h5>
+                    <p class="card-text">Lors de la Journée Internationale de L'éducation le mardi 24 Janvier 2023, la Fondation Glory Impact Group a encouragé et donné des conseils aux élèves présentant des lacunes. Tous unis pour bâtir une nation forte en formant les leaders de demain.</p>
+                   <a href="{{ url('/visiteGroupe') }}" class="btn btn-primary">Savoir plus</a>
                 </div>
             </div>
         </div>
-   
+        <div class="carousel-item wow fadeInUp team-item">
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/carousels/jeunegrouilleur/1.jpg') }}" class="d-block w-100" alt="..."></div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Déjeuner de Noel avec les jeunes battants et grouilleurs qui a eu lieu à Cocody II Plateaux.</h5>
+                    <p class="card-text">Le dimanche 25 décembre 2022, La Fondation Glory Impact Group a organisé "Le Déjeuner de Noël avec des jeunes battants et grouilleurs". Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout,...</p>
+                   <a href="{{ url('/jeunegrouilleur') }}" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item wow fadeInUp team-item">
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/carousels/donFondationJC/1.jpg') }}" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires.</h5>
+                    <p class="card-text">Le jeudi 15 décembre 2022, la Fondation Glory Impact Group et la Fondation Francis CJ ont fait une visite à l'orphelinat Oméga International+ situé à Bingerville pour apporter de l'aide et de la joie aux enfants...</p>
+                   <a href="{{ url('/fondationFrancisCJ') }}" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item wow fadeInUp team-item">
+            <div class="card">
+                <div class="img-wrapper"><img src="{{ asset('assets/img/about/coachs.jpg') }}" class="d-block w-100" alt="...">  </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</h5>
+                    <p class="card-text">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque.Le président de la fondation a été très heureux de recevoir ce jeune créateur qui propose de beaux articles. Des engagements forts ont été pris pour…</p>
+                   <a href="{{ url('/coachs_Jos') }}" class="btn btn-primary">Savoir plus</a>
+                </div>
+            </div>
+        </div>
+       
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -450,93 +465,8 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
     <!-- Facts End -->
 <br>
 
-<!--
-    <-- Service Start ->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">LE BIEN QUE NOUS APPORTONS</h4>
-                <h1 class="display-5 mb-4">EN UNE SEULE VIDEO</h1>
-            </div>
-            <div class="fondation">
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100086391491746%2Fvideos%2F525854432769621%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden;display:block;margin-left:auto; margin-right:auto" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-            </div>
-        </div>
-    </div>
-    <-- Service End -->
 
 
-    <!-- Feature Start -->
-    <!--
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">NOTRE OBJECTIF</h4>
-                    <p class="mb-4">La Fondation Glory Impact Group a pour mission de participer
-                     à l'autonomie et à l'insertion socio-professionnelle des jeunes déscolarisés
-                      en situation de vulnérabilités et à contribuer au bien-être de la population.
-                    </p>
-                    <h1 class="display-5 mb-4">Avez vous besoin d'aide ?</h1> 
-                    <h1> Souhaitez vous nous contacter ?</h1>
-                    <div class="row g-4">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                                        style="width: 65px; height: 65px;">
-                                        <i class="fa fa-2x fa-phone-alt text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Appelez Maintenant</p>
-                                        <h3 class="mb-0">+225 27 22 42 14 06</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                                        style="width: 65px; height: 65px;">
-                                        <i class="fa-2x fab fa-whatsapp text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">WhatsApp</p>
-                                        <h3 class="mb-0"><a href="https://wa.me/+2250768734728">+225 07 68 73 47 28</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                                        style="width: 65px; height: 65px;">
-                                        <i class="fa fa-2x fa-envelope-open text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Email</p>
-                                        <h3 class="mb-0">fondationgloryimpactgroup@gmail.com</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-img">
-                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/ecole.jpg') }}"
-                            alt="">
-                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/ecol.jpg') }}"
-                            alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
-    <!-- Feature End -->
-
-    <!-- Appointment End -->
- <!-- Rejoin nous Start -->
- 
-   
     <!-- Testimonial End -->
     <div class="bg-light text-center p-4">
         <div class="container-xxl py-5">
@@ -558,7 +488,6 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
     <a href="{{ url('/benevole') }}" style="text-align:center" class="btn btn-primary   py-3 px-5  ">Rejoignez-nous</a>
 
     </div>
-<<<<<<< HEAD
   
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
         <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
@@ -568,19 +497,6 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
             <div class="row g-0 team-items">
             
                 <br>
-=======
-    <br>
-    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <h4 class="section-title">Ils nous font confiance, ils ont soutenu notre travail</h4>
-       
-    </div>
-    <div class="bg-light text-center container-xxl py-5">
-        <div class="container">
-           
-            
-
-            <div class="row g-0 team-items">
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class=" position-relative">
                         <div class="position-relative">
@@ -612,19 +528,7 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                      
                     </div>
                 </div> 
-<<<<<<< HEAD
     
-=======
-                <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
-                    <div class=" position-relative">
-                        <div class="position-relative">
-                            <img  width="100" height="100" src="{{ asset('assets/img/partenaire/fondationjs.png') }}"
-                            alt="">
-                        </div>
-                     
-                    </div>
-                </div>
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                   <div class="col-lg-3 col-md-6 " data-wow-delay="0.3s">
                     <div class=" position-relative">
                         <div class="position-relative">
@@ -637,11 +541,7 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class=" position-relative">
                         <div class="position-relative">
-<<<<<<< HEAD
                             <img width="200" height="200"  src="{{ asset('assets/img/partenaire/5.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
-=======
-                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/296734966_635127788185801_1636939761000945103_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFLYaeJQIy3IbZOiP3NCFy_TWEz-QzkYAxNYTP5DORgDMkF2CmksAbQw9SWRw1j3WMsd3GcM1CUldauxa1l5OLz&_nc_ohc=1eaVqyR-Ww8AX91xGTr&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDTPPPVlNYT0hKZbPLKHiXRh3YniEUzRe9Gfl54SxwqFw&oe=63FF5456" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                        
                         </div>
@@ -651,11 +551,7 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class=" position-relative">
                         <div class="position-relative">
-<<<<<<< HEAD
                             <img width="100" height="100" src="{{ asset('assets/img/partenaire/6.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
-=======
-                            <img width="100" height="100" src="https://scontent.fabj7-1.fna.fbcdn.net/v/t39.30808-6/326055544_5765127286928238_8934736117882148358_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEmsP_RHEYqUMSqUlNALzvJZ7XqCn0Pus5nteoKfQ-6znPskSwfxc0qbYRjWvNhH092zrV9b7PF27hnhPXwevgR&_nc_ohc=lHN0rgVtx-AAX-tEvE1&tn=mc-xjTzR46K2Jven&_nc_ht=scontent.fabj7-1.fna&oh=00_AfDCQcjBw76wm98CDiGu7X1wKl6X3_MESJeQhXJr4CKvbg&oe=63FF3E3E" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                        
                         </div>
@@ -665,7 +561,6 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class=" position-relative">
                         <div class="position-relative">
-<<<<<<< HEAD
                          <img width="100" height="100" src="{{ asset('assets/img/partenaire/7.jpg') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
                         
                         </div>
@@ -694,9 +589,6 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
                     <div class=" position-relative">
                         <div class="position-relative">
                          <img width="100" height="100" src="{{ asset('assets/img/partenaire/10.png') }}" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
-=======
-                         <img width="100" height="100" src="https://www.agenceemploijeunes.ci/site/themes/refonteaej/assets/images/logo_aej_new.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy">
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                         
                         </div>
                     
@@ -706,25 +598,17 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-
-    
-=======
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
- 
-<br><br>
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+      
+    </div>
   
 
     <!-- Section Bas de page debut -->
-    @include('/layouts/footer')
+  
 
     <!-- Section Bas de page Fin -->
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
+    @include('/layouts/footer')
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -736,7 +620,40 @@ l'objectif final de ce partenariat est d'aboutir à l….</p>
     <script src="{{ asset('assets/lib/tempusdominus/js/moment.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-
+<script >
+var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+var cardWidth = $(".carousel-item").width();
+var scrollPosition = 0;
+$(".carousel-control-next").on("click", function () {
+  if (scrollPosition < (carouselWidth - cardWidth * 4)) { //check if you can go any further
+    scrollPosition += cardWidth;  //update scroll position
+    $(".carousel-inner").animate({ scrollLeft: scrollPosition },600); //scroll left
+  }
+});
+$(".carousel-control-prev").on("click", function () {
+  if (scrollPosition > 0) {
+    scrollPosition -= cardWidth;
+    $(".carousel-inner").animate(
+      { scrollLeft: scrollPosition },
+      600
+    );
+  }
+});
+var multipleCardCarousel = document.querySelector(
+    "#carouselExampleControls"
+  );
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    //rest of the code
+    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+      interval: false
+    });
+  } else {
+    $(multipleCardCarousel).addClass("slide");
+  }
+  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+    interval: false,
+    wrap: false,
+  });</script>
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
     {{-- toastr js --}}

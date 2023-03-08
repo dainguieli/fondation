@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\benevoleControlleur;
+use App\Http\Controllers\donControlleur;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
@@ -21,6 +23,9 @@ Route::get('/', function () {
 Route::get('/habitat', function () {
     return view('habitat',['PageName' => 'habitat']);
 });
+Route::get('/galerie', function () {
+    return view('galerie',['PageName' => 'galerie']);
+});
 
 Route::get('/about', function () {
     return view('about',['PageName' => 'about']);
@@ -36,17 +41,11 @@ Route::get('/project', function () {
 Route::get('/don', function () {
     return view('don',['PageName' => 'don']);
 });
+Route::Post('/faitDon',[donControlleur::class,'faitDon'])->name('faitDon');
 
-<<<<<<< HEAD
 Route::get('/contact', function () {
     return view('contact',['PageName' => 'contact']);
 });
-=======
-Route::get('/actualite', function () {
-    return view('actualite',['PageName' => 'actualite']);
-});
-
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
 //actualite
 Route::get('/actualite', function () {
     return view('actualite',['PageName' => 'actualite']);
@@ -54,10 +53,17 @@ Route::get('/actualite', function () {
 Route::get('/coachs_Jos', function () {
     return view('actualite.coachs_Jos',['PageName' => 'coachs_Jos']);
 });
-<<<<<<< HEAD
-
+Route::get('/rencontre_comor', function () {
+    return view('actualite.rencontre_comor',['PageName' => 'rencontre_comor']);
+});
 Route::get('/associationsfemmes', function () {
     return view('actualite.associationsfemmes',['PageName' => 'associationsfemmes']);
+});
+Route::get('/entrepreneurMs', function () {
+    return view('actualite.entrepreneurM',['PageName' => 'entrepreneurM']);
+});
+Route::get('/Chronos', function () {
+    return view('actualite.Chronos',['PageName' => 'Chronos']);
 });
 Route::get('/cadeauxpourlaNoelauxenfants', function () {
     return view('actualite.cadeauxpourlaNoelauxenfants',['PageName' => 'cadeauxpourlaNoelauxenfants']);
@@ -68,11 +74,6 @@ Route::get('/VisiteGroupe', function () {
 Route::get('/fondationFrancisCJ', function () {
     return view('actualite.fondationFrancisCJ',['PageName' => 'fondationFrancisCJ']);
 });
-=======
-Route::get('/VisiteGroupe', function () {
-    return view('actualite.VisiteGroupe',['PageName' => 'VisiteGroupe']);
-});
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
 
 Route::get('/jeunegroulleur', function () {
     return view('actualite.jeunegroulleur',['PageName' => 'jeunegroulleur']);
@@ -81,6 +82,12 @@ Route::get('/jeunegroulleur', function () {
 Route::get('/benevole', function () {
     return view('benevole',['PageName' => 'benevole']);
 });
+//ambassadeur
+Route::get('/ambassadeur', function () {
+    return view('ambassadeur',['PageName' => 'ambassadeur']);
+});
+
+Route::Post('/creerbenevole',[benevoleControlleur::class,'register'])->name('creerbenevole');
 //action
 Route::get('/action', function () {
     return view('action',['PageName' => 'action']);

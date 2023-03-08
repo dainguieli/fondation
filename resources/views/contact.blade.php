@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,111 +55,110 @@
             </nav>
         </div>
     </div>
-    <!-- Page Header End -->
 
-    <!-- Appointment Start -->
-    <form action="" method="POST">
-    <div class="container-xxl py-5 mt-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Contactez Nous</h4>
                 <h1 class="display-5 mb-4">Pour toute autre question, N'hésitez pas à nous contacter</h1>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    {{-- <h4 class="section-title">Obtenez</h4>
-                    <h1 class="display-5 mb-4">Un Rendez-vous pour demarrer votre projet</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                        diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
-                        amet
-                    </p> --}}
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
-                                    style="width: 55px; height: 55px;">
-                                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Adresse</p>
-                                    <h3 class="mb-0"><a href="https://www.google.com/maps/dir/5.3914863,-3.9776399/glory+impact/@5.3904537,-3.9786809,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfc193710813014b:0x91118edfc3915d4a!2m2!1d-3.975563!2d5.3898923">Angré 8ème Tranche, Cocody</a> </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
-                                    style="width: 55px; height: 55px;">
-                                    <i class="fa fa-phone-alt text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">WhatsApp</p>
-                                    <h3 class="mb-0"><a href="https://wa.me/+2250768734728">+225 07 68 73 47 28</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
-                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
-                                    style="width: 55px; height: 55px;">
-                                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Appelez maintenat</p>
-                                    <h3 class="mb-0">+225 27 22 42 14 06</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="bg-light d-flex align-items-center w-100 p-4">
-                                <div class="d-flex justify-content-center align-items-center justify-content-center bg-light"
-                                    style="width: 55px; height: 55px;">
-                                    <i class="fa fa-envelope-open text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Ecrivez-nous maintenant</p>
-                                    <h3 class="mb-0">fondationgloryimpactgroup@gmail.com</h3>
-                                </div>
-                            </div>
-                        </div>
+  
+          <div class="row gx-lg-0 gy-4">
+  
+            <div class="col-lg-4">
+  
+              <div class="info-container d-flex flex-column align-items-center justify-content-center">
+                <div class="info-item d-flex">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h4>Localisation:</h4>
+                    <h4><a  style="color: #ffff" href="https://www.google.com/maps/dir/5.3914863,-3.9776399/glory+impact/@5.3904537,-3.9786809,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfc193710813014b:0x91118edfc3915d4a!2m2!1d-3.975563!2d5.3898923">Angré 8ème Tranche, Cocody</a> </h4>
+             
+                  </div>
+                </div><!-- End Info Item -->
+  
+                <div class="info-item d-flex">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h4>Email:</h4>
+                    <h4 style="color: #ffff">fondationgloryimpactgroup@gmail.com </h4>
+                     </div>
+                </div><!-- End Info Item -->
+  
+                <div class="info-item d-flex">
+                  <i class="bi bi-phone flex-shrink-0"></i>
+                  <div>
+                    <h4>WhatsApp:</h4>
+                    <h4> <a style="color: #ffff" href="https://wa.me/+2250768734728">+225 07 68 73 47 28</a></h4>
+                  </div>
+                </div><!-- End Info Item -->
+                <div class="info-item d-flex">
+                    <i class="fa fa-phone-alt flex-shrink-0"></i>
+                    <div>
+                      <h4>Contact:</h4>
+                      <h4 style="color: #ffff">
+                        +225 27 22 42 14 06
+                    </h4>  
                     </div>
+                  </div><!-- End Info Item -->
+  <!--
+                <div class="info-item d-flex">
+                  <i class="bi bi-clock flex-shrink-0"></i>
+                  <div>
+                    <h4>Open Hours:</h4>
+                    <p>Mon-Sat: 11AM - 23PM</p>
+                  </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">Veuillez renseigner le formulaire ci-dessous en precisant vos préoccupations.
-                        Notre équipe se chargera de vous repondre le plus rapidement possible.
-                    </p>
-                    <form action="/email-send'" method="POST" enctype="multipart/form-data">
-                        @csrf
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input name="name" type="text" class="form-control"
-                                    placeholder="Votre Nom et Prénom(s)" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input name="email" type="email" class="form-control" placeholder="Votre Adresse mail"
-                                    style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="contact" class="form-control" placeholder="Votre Contact"
-                                    style="height: 55px;">
-                            </div>
-                
-                            <div class="col-12">
-                                <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Prendre un
-                                    Rendez-vous</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
+            -->
+                <!-- End Info Item -->
+              </div>
+  
             </div>
+  
+            <div class="col-lg-8">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom et prenoms" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Votre email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Envoyer un message</button></div>
+              </form>
+            </div><!-- End Contact Form -->
+  
+          </div>
+  
         </div>
-    </div>
-    </form>
+      </section><!-- End Contact Section -->
+
+
+
+
+
+
+
+
+
+    <!-- Page Header End -->
+
+    <!-- Appointment Start -->
+  
     <!-- Appointment End -->
 
         <!-- Google Map Start -->
@@ -197,6 +196,14 @@
     <script src="{{ asset('assets/lib/tempusdominus/js/moment.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+
+
+        <script src="{{ asset('assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset('assets/vendor/php-email-form/validate.js')}}"></script>
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>

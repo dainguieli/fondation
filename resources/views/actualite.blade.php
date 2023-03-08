@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,19 +67,43 @@
             </div>
 
             <div class="row g-0 team-items">
+              
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid"src="{{ asset('assets/img/carousels/rencontre_comor/1.jpg') }}"
+                                alt="">
+                             
+                            <div class="team-social text-center">
+                                <div class="grop-news_ps_date">
+                                    
+                                    <i class="bi bi-clock"></i> 27 Fév 2023	</div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <span class="text-primary">La contribution de la Fondation Glory Impact Group à l'insertion socio-professionnelle des jeunes comoriens à travers l'entrepreneuriat</span>
+                            <p class="mt-2" style="text-align: justify">Le lundi 27 février 2023, nous avons été reçus en audience par Son Excellence Monsieur DHOIHIR DHOULKAMAL…</p>
+
+                            <a href="{{ url('/rencontre_comor') }}"> <span class="text-primary">Savoir plus</span></a>  
+
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="{{ asset('assets/img/about/coachs.jpg') }}"
                                 alt="">
+                             
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
+                                    
                                     <i class="bi bi-clock"></i> 18 Fev 2023	</div>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE</span>
-                            <p class="mt-2">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact.<br>Le stage de formation se tiendra du lundi 20 au samedi 25 février 2023 à Marcory Zone 4... </p>
+                            <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur</span>
+                            <p class="mt-2" style="text-align: justify">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact... </p>
 
                             <a href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
 
@@ -97,9 +121,9 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-3">
-                            <span class="text-primary" style="width: 600px;" > le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
-                            <p class="mt-2">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque.Le président de la fondation a été très heureux de recevoir ce jeune créateur qui propose de beaux articles. Des engagements forts ont été pris pour…</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
+                            <span class="text-primary" style="width: 600px;" > Le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
+                            <p class="mt-2" style="text-align: justify" style="text-align: justify">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque...</p>
+                            <a  href="{{url('/entrepreneurMs')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
                 </div>
@@ -110,104 +134,105 @@
                                 alt="">
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 14 Nov 2022	</div>
+                                    <i class="bi bi-clock"></i> 10 Fev 2023</div>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique. 
-l'objectif final de ce partenariat est d'aboutir à l…</p>
-                            <a  href=""> <span class="">Savoire plus</span></a>  
+                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS </span>
+                            <p class="mt-2" style="text-align: justify">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique...</p>
+                            <a href="{{url('/Chronos')}}"> <span class="">Savoire plus</span></a>  
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
+                            <img class="img-fluid"src="{{ asset('assets/img/carousels/visiteGroup/1.jpg') }}" 
                                 alt="">
                             <div class="team-social text-center">
                                 <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
+                                    <i class="bi bi-clock"></i> 24 Janv 2023	</div>
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
-                                alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
-                                alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
-                                alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                            <a  href=""> <span class="text-primary">Savoir plus</span></a>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/about/habitat/donation.jpg') }}"
-                                alt="">
-                            <div class="team-social text-center">
-                                <div class="grop-news_ps_date">
-                                    <i class="bi bi-clock"></i> 13 Nov 2021	</div>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS Directeur Général Adjoint de Chronos Athletics</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
+                            <span class="text-primary">Journée Internationale de l'Education avec les établissements primaires et secondaires.</span>
+                            <p class="mt-2" style="text-align: justify">Le mardi 24 janvier 2023, à l'occasion de la Journée Internationale de l'éducation, la Fondation Glory Impact Group a ...</p>
 
-                            <a href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
+                            <a href="{{ url('/VisiteGroupe') }}"> <span class="text-primary">Savoir plus</span></a>  
 
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ asset('assets/img/carousels/jeunegrouilleur/1.jpg') }}"
+                                alt="">
+                            <div class="team-social text-center">
+                                <div class="grop-news_ps_date">
+                                    <i class="bi bi-clock"></i> 25 Déc 2022	</div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <span class="text-primary"> La Fondation Glory Impact Group a organisé "Le Déjeuner de Noël avec des jeunes battants et grouilleurs".</span>
+                            <p class="mt-2" style="text-align: justify">Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout, et cela à partir de cette année,... </p>
+                            <a  href="{{url('/jeunegroulleur')}}"> <span class="text-primary">Savoir plus</span></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ asset('assets/img/carousels/donFondationJC/1.jpg') }}"
+                                alt="">
+                            <div class="team-social text-center">
+                                <div class="grop-news_ps_date">
+                                    <i class="bi bi-clock"></i> 15 Déc 2022	</div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <span class="text-primary">le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires.</span>
+                            <p class="mt-2" style="text-align: justify">Le jeudi 15 décembre 2022, le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite ...</p>
+                            <a  href="{{url('/fondationFrancisCJ')}}"> <span class="text-primary">Savoir plus</span></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ asset('assets/img/carousels/kdoNoel2022/1.jpg') }}"
+                                alt="">
+                            <div class="team-social text-center">
+                                <div class="grop-news_ps_date">
+                                    <i class="bi bi-clock"></i> 10 Déc 2022	</div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <span class="text-primary">Remise de cadeaux pour la Noel aux enfants issus de différents établissements primaires.</span>
+                            <p class="mt-2" style="text-align: justify">Le samedi 10 décembre 2022, date de la 3ème journée du Festival Sel et Lumière, 
+                                la Fondation Glory Impact Group a célébré avant l'heure la fête de la Noël  avec 600 enfants...</p>
+                            <a  href="{{url('/cadeauxpourlaNoelauxenfants')}}"> <span class="text-primary">Savoir plus</span></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0585.JPG') }}"
+                                alt="">
+                            <div class="team-social text-center">
+                                <div class="grop-news_ps_date">
+                                    <i class="bi bi-clock"></i> 08 Déc 2022	</div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <span class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</span>
+                            <p class="mt-2" style="text-align: justify">Le jeudi 8 novembre 2022, la Fondation Glory Impact Group a ouvert le Festival Sel et Lumière en grande pompe,...</p>
+                            <a  href="{{url('/associationsfemmes')}}"> <span class="text-primary">Savoir plus</span></a>  
+                        </div>
+                    </div>
+                </div>
+                
           
 
  

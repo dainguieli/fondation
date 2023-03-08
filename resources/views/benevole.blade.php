@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,8 +36,8 @@
 </head>
 
 <body>
+  
     @include('/layouts/header')
-    @include('sweetalert::alert')
 
     <!-- Page Header Start -->
     <div class="container-fluid py-5 mb-5 wow fadeIn" data-wow-delay="0.1s"
@@ -56,9 +56,43 @@
         </div>
     </div>
     <!-- Page Header End -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="">
+                     
+                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/ambassadeu.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h4 class="section-title">Pourquoi devenir Bénévole actif ?</h4>
+                    <h1 class="display-5 mb-4">Une Fondation engagée pour l'autonomie des jeunes et le bien-être de la population
+                    </h1>
+                    <p>Devenir bénévole actif pour la Fondation Glory Impact Group peut être motivant pour plusieurs raisons.
 
+                        Tout d'abord, cela permet de contribuer à une cause noble en aidant les populations vulnérables à travers le monde. En travaillant avec la Fondation Glory Impact Group, les bénévoles actifs ont l'opportunité de faire une différence positive dans la vie des autres en soutenant des projets liés à la santé, à l'éducation et au développement durable.<br>
+                        
+                        Ensuite, devenir bénévole actif pour la Fondation Glory Impact Group peut également offrir des avantages personnels, tels que le développement de compétences pertinentes pour les activités de l'organisation, la possibilité de rencontrer des gens partageant les mêmes idées et de se faire des amis, ainsi que la satisfaction de donner de son temps et de son énergie pour une cause importante.<br>
+                        
+                        De plus, travailler en tant que bénévole actif pour la Fondation Glory Impact Group peut offrir une expérience enrichissante et émouvante en ayant un contact direct avec les bénéficiaires de l'organisation et en voyant les résultats concrets des projets soutenus. <br>
+                        
+                        Enfin, devenir bénévole actif pour la Fondation Glory Impact Group peut offrir la possibilité de se sentir utile et de contribuer à un monde meilleur et plus juste, en soutenant une organisation qui s'engage à promouvoir le bien-être des populations vulnérables à travers le monde. <br>
+                        
+                        En somme, devenir bénévole actif pour la Fondation Glory Impact Group peut offrir des avantages personnels et professionnels tout en contribuant à une cause importante. Si vous êtes intéressé à rejoindre notre communauté engagée et à faire une différence positive dans la vie des autres, n'hésitez pas à nous contacter pour en savoir plus sur les opportunités de bénévolat disponibles.
+                        
+                     </p>
+                    <p class="mb-4">   Rejoignez-nous dans notre mission et contribuez à rendre un avenir meilleur à notre jeunesse !
+                    </p>
+       
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Appointment Start -->
-    <form action="" method="POST">
+    <form  method="post" action="{{ route('creerbenevole') }}" enctype="multipart/form-data" > 
+        @csrf 
+        @method('post') 
     <div class="container-xxl py-5 mt-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -92,17 +126,33 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="about-img" style="background: color:#4169E1;">
                                 <img decoding="async" width="500" height="400" src="{{ asset('assets/img/carousels/benevo.jpg') }}" class="attachment-large size-large" alt="" loading="lazy">
-                                <img decoding="async" width="500" height="400" src="https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/329698996_1457998751671310_8904306350743599836_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH9irZHZBsqeqhw-CHNqcHvABEJotlMgPEAEQmi2UyA8eMOb4CR8lR2pW8kkshjIPk4LCu3-XJSkTACFN77J-mW&_nc_ohc=UkcbQdb1kPoAX_Njj3A&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfDSUUeU1294916wD_6LjSN4nAXlmaLvY_T7piXwAHdlnw&oe=63FAC3A0" class="attachment-large size-large" alt="" loading="lazy">
+                                <img decoding="async" width="500" height="400" src="{{ asset('assets/img/carousels/benevo1.jpg') }}" class="attachment-large size-large" alt="" loading="lazy">
                                
 
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                            <form action="/email-send'" method="POST" enctype="multipart/form-data">
-                                @csrf
+                            <div class="title-left">
+                                @if(count($errors)>0)
+                                <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors ->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+                                </div>
+                                    @endif
+
+                                    @if(Session::has('status'))
+                                    <div class="alert alert-success">
+                                    {{Session::get('status')}}
+                                    </div>
+                                    @endif
+                            </div>
+                        
                                 <div class="row g-3">
                                     <div class="col-12 col-sm-6">
-                                        <input name="name" type="text" class="form-control"
+                                        <input name="nom" type="text" class="form-control"
                                             placeholder="Votre Nom " style="height: 55px;">
                                     </div>
                                     <div class="col-12 col-sm-6">
@@ -114,17 +164,12 @@
                                             style="height: 55px;">
                                     </div>
                                     <div class="col-12 col-sm-6">
-                                        <input name="adresse" type="text" class="form-control"
-                                            placeholder="Votre adresse" style="height: 55px;">
+                                        <input name="metier" type="text" class="form-control"
+                                            placeholder="Votre Métier" style="height: 55px;">
                                     </div>
                                     <div class="col-12 col-sm-6">
-<<<<<<< HEAD
                                         <input name="adresse" type="text" class="form-control"
                                             placeholder="Votre adresse" style="height: 55px;">
-=======
-                                        <input name="métier" type="text" class="form-control"
-                                            placeholder="Votre metier" style="height: 55px;">
->>>>>>> c51a88772fba963b9acf31c3a44fdefe20bbf127
                                     </div>
                                     <div class="col-12 col-sm-6">
                                         <input name="email" type="email" class="form-control" placeholder="Votre  mail"
@@ -135,8 +180,8 @@
                                     <div class="col-12">
                                         <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
                                     </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Rejoignez-nous</button>
+                                    <div class="d-flex justify-content-center">
+                                        <button class="btn btn-primary w-10 py-3" type="submit">Rejoignez-nous</button>
                                     </div>
                                 </div>
                             </form>

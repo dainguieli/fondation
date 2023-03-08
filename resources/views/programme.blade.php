@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,8 +62,8 @@
     <div class="container-xxl py-5 mt-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">NOS PROJETS EN COURS</h4>
-                <h1 class="display-5 mb-4">Retrouvez tous nos projets en cours ci-dessous </h1>
+                <h4 class="section-title">NOS événements EN COURS</h4>
+                <h1 class="display-5 mb-4">Retrouvez tous nos événements en cours ci-dessous </h1>
             </div>
             <div class="row g-4">
 
@@ -111,8 +111,8 @@
             <div class="container-xxl py-5 mt-5">
                 <div class="container">
                     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                        <h4 class="section-title">NOS PROJETS ANNUELS</h4>
-                        <h1 class="display-5 mb-4">Retrouvez tous nos projets annuels ci-dessous</h1>
+                        <h4 class="section-title">NOS événements ANNUELS</h4>
+                        <h1 class="display-5 mb-4">Retrouvez tous nos événements annuels ci-dessous</h1>
                     </div>
                     <div class="row g-4">
         
@@ -160,8 +160,8 @@
                     <div class="container-xxl py-5 mt-5">
                         <div class="container">
                             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                                <h4 class="section-title">NOS PROJETS TERMINÉS</h4>
-                                <h1 class="display-5 mb-4">Retrouvez tous nos projets terminés ci-dessous</h1>
+                                <h4 class="section-title">NOS événements TERMINÉS</h4>
+                                <h1 class="display-5 mb-4">Retrouvez tous nos événements terminés ci-dessous</h1>
                             </div>
                             <div class="row g-4">
                 

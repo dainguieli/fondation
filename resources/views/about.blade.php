@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,8 +64,8 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/about-1.jpg') }}" alt="">
+                    <div class="">
+                     
                         <img class="img-fluid" src="{{ asset('assets/img/about/habitat/about-2.jpg') }}" alt="">
                     </div>
                 </div>
@@ -159,10 +159,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-img">
-                        <img class="img-fluid" src="{{ asset('assets/img/about/enfant.jpg') }}"
-                            alt="">
-                        <img class="img-fluid" src="{{ asset('assets/img/about/enfant.jpg') }}"
+                    <div class="">
+                  
+                        <img class="img-fluid"  src="{{ asset('assets/img/about/enfant.jpg') }}"
                             alt="">
                     </div>
                 </div>
@@ -171,13 +170,13 @@
     </div>
     <!-- Feature End -->
 
-
+ 
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Notre Dynamique Equipe</h4>
-                <h1 class="display-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                <h1 class="display-5 mb-4">Une Equipe créative pour soutenir l'autonomie des jeunes en Côte d'Ivoire.</h1>
             </div>
             <div class="row g-0 team-items">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -207,8 +206,8 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Jules R. GOUHAN</h3>
-                            <span class="text-primary">Président Directeur Général</span>
+                            <h3 class="mt-2">M. GOUHAN Jules</h3>
+                            <span class="text-primary">Président Fondateur</span>
                         </div>
                     </div>
                 </div>
@@ -223,8 +222,8 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">B. Kecys GOUHAN</h3>
-                            <span class="text-primary">Directrice Générale</span>
+                            <h3 class="mt-2">Mme. GOUHAN Kecys </h3>
+                            <span class="text-primary">Vice Présidente</span>
                         </div>
                     </div>
                 </div>
@@ -247,10 +246,10 @@
             </div>
 
             <div class="row g-0 team-items">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/Lyne.jpeg') }}"
+                            <img class="img-fluid" src="https://gloryimpactgroup.org/assets/img/personnel/zinsou.jpeg"
                                 alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -259,32 +258,15 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Lyne KOUADIO</h3>
-                            <span class="text-primary">Responsable Habitat</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/rodrigue.jpeg') }}"
-                                alt="">
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Rodrigue GOUHAN</h3>
-                            <span class="text-primary">Responsable Technique</span>
+                            <h3 class="mt-2">M. ZINSOU Serges</h3>
+                            <span class="text-primary">Directeur</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/levi.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('') }}"
                                 alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -293,15 +275,15 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Levi GAHOU</h3>
-                            <span class="text-primary">Responsable Technique</span>
+                            <h3 class="mt-2">M. Kouadio Arnaud</h3>
+                            <span class="text-primary">Directeur de Cabinet</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/personnel/zinsou.jpeg') }}"
+                            <img class="img-fluid" src="{{ asset(' ') }}"
                                 alt="">
                                 <div class="team-social text-center">
                                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -310,8 +292,8 @@
                                 </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h3 class="mt-2">Serges ZINSOU</h3>
-                            <span class="text-primary">Responsable Event</span>
+                            <h3 class="mt-2">M. Kra Jaurès </h3>
+                            <span class="text-primary">Infographe</span>
                         </div>
                     </div>
                 </div>

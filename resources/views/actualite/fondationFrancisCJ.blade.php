@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,44 +41,35 @@
    
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+          <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320057391_831400751409496_410963620903755201_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH8yNULmd2s4B4jyuO-PilftFXF4Z-Ti8y0VcXhn5OLzGnCBtyXpxFUBrXgTX1_xUYSWiqUexOsM9apOHdHAV6W&_nc_ohc=dZJj4FSdmNgAX8Y1XVr&tn=9za5LyBrVSqEjS7J&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAhW9awYtZA57qzt9npKCdZjqZi4dXtlaZ-tIQ1NckriA&oe=63FD0DCD"class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320377253_546216357368125_8613510139183605048_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE4cMt_33gmrZOO3KpVurF5whJwKvLZc8zCEnAq8tlzzIKAcuTROVZGWKzVcDKANglhtbzZOfCQLr7d2znPiysJ&_nc_ohc=2Ouv0NNrVOgAX9bBrxi&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCPsbkdPQqg4iaHn2dTw8H5VDaK_KSMmAY4Z6rmWtwi_Q&oe=63FD63C1" class="d-block w-100" alt="...">
-              </div> 
-               <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/319826572_561490445814856_2752536427288439259_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGWUPiVjuEwBY64ssnXe41NcQDkXgPJfxlxAOReA8l_GcF3g5g6G9VdKLILwPcJfjBHtPRAEura1y4_GWlDg1nA&_nc_ohc=TCUDyt6GYY8AX8MHZcT&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCV5wVB063Rtb8Mslgm1cjy-Div8mWcoZjKindIeCKkAA&oe=63FE5A56" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/319419488_505300611413658_6120812263599153242_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEoxCxa40y2CGwTNl7hDYNIrgY_YPpaaf2uBj9g-lpp_e7h8ctybGFwqkZYpjyBY0CJsgvMyefMJzRoG1ZO8OvW&_nc_ohc=AJe_jRWPR4EAX_QJ53n&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCpmQ691HJzzGNwXuFA-b1PVq7ClN_FtfOEmzqn6TGmpw&oe=63FDF8CF" class="d-block w-100" alt="...">
-              </div>
-              
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/319083722_858295601984027_4327002865997462670_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHFP-cfji1uQUvbuvf2VljKVNezQHwaBEZU17NAfBoERhPg5Ku7zDZtyWechk7m-TYceLRPYUZSIMajf86ZSp8F&_nc_ohc=ItK-T5t0J4sAX-ZN1sA&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAvKU_C5x8lbPbo6t3TgkibIj9ah_i3BorvGPlhtFmECg&oe=63FDF925" class="d-block w-100" alt="...">
-              </div>
-    
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320330009_696024472177159_1496037415274785017_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFFGNnaGweymuvq8zxC2W5Pr0ODEMJCtbavQ4MQwkK1tt-d-KUnsoI_syCnfTgFVu5SN-8ClGg1aX5TkYJcktM_&_nc_ohc=2CQVmUKoDmUAX8tVIrx&tn=9za5LyBrVSqEjS7J&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCMoYhGlufrt9Rr7gaPZKsUBmnd8H772CU8JfROLAYb-Q&oe=63FE07DC"
-                 class="d-block w-100" alt="...">
-              </div> 
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/319287546_485828643680080_622585930714686372_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFfhXyNF97vEzpLrd7BPKw_T_sUTiSuogBP-xROJK6iAJbAgN1ZlcC3jGSo9KtPl3mTGtKMwuj9Kp2f9_giLNwq&_nc_ohc=aW-sx-qX6nQAX96IX8U&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAmERwJEUKruViK3DnrAGiEQsBL5f6tZ0AAlOQRAFQDwQ&oe=63FD6C11"
-                 class="d-block w-100" alt="...">
-              </div>
-                 <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320411354_2086529998208231_7152032263318765209_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFbGr91N8a4kjrVV12MsGuB3J17QvQpUbXcnXtC9ClRtSWl_zufcBns2q9jgJl4wAHltmPTynlYU1gJxUri86YT&_nc_ohc=ayUnAusJ7ioAX_pqCof&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfBTX9QT5AMA3vuwZSbX61wWuHJlMpPyW36Z6QzepcACJw&oe=63FD8383"
-                 class="d-block w-100" alt="...">
-              </div>   
-                 <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320480594_523690199783558_3531736479694253040_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHJc-gXtvzzqDVGM0lblT7ZMB0nJK9oYNAwHSckr2hg0Ch7JFwatnOZhLMh37JTRQIDkMC2_z19KfmZHOXzGW-c&_nc_ohc=i-Ejwt-m4sAAX9j1iFW&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAEnvd-HCPgscB8GuIJlXSgo0PcNcwc50J79IGvLbqKfA&oe=63FDC52B"
-                 class="d-block w-100" alt="...">
-              </div> 
-              <div class="carousel-item">
-                <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/320005022_1001530367470980_3958675775977138652_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHTu80HvVc3G6vfslyzzBO8ovMxpFRt5bei8zGkVG3lt8e1EUCjSZ1mli7JNXP8hx-DaL__eK4QQy32tJjHEyuf&_nc_ohc=8J3xSE77x2MAX-KMS3M&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCiIVpl3PP5AgBlfjPUd58lmAMnAZ0ez7g2c9bCMO2K2g&oe=63FE4DC8"
-                 class="d-block w-100" alt="...">
-              </div>
+              <img  src="{{ asset('assets/img/carousels/donFondationJC/1.jpg') }}" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/2.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/3.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/4.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/5.jpg') }}"
+               class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/6.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="{{ asset('assets/img/carousels/donFondationJC/7.jpg') }}" class="d-block w-100" alt="...">
+            </div>
+           
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -92,29 +83,38 @@
     </div>
     <!-- Carousel End -->
     <br>
+    <div class="about_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 col-sm-12">
+      
+               <span class="grop-post_date"><i class="bi bi-clock"></i> 15 Décembre 2022</span>
+               <h2 class="text-primary">Le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires de l'orphelinat Oméga International+ sis à Bingerville. </h2>
+               <hr >
+               <p style="text-align: justify">Le jeudi 15 décembre 2022, la Fondation Glory Impact Group et la Fondation Francis CJ ont fait une visite à l'orphelinat Oméga International+ situé à Bingerville pour apporter de l'aide et de la joie aux enfants qui y résident.<br><br>
 
-   <div class="about_section layout_padding">
-    <div class="container">
-       <div class="row">
-          <div class="col-lg-8 col-sm-12">
-    
-             <span class="grop-post_date"><i class="bi bi-clock"></i> 08 Décembre 2022</span>
-             <h2 class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</h2>
-             <hr >
-             <p class="lorem_text">Le jeudi 15 décembre 2022, le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires de l'orphelinat Oméga International+ sis à Bingerville. 
-              Ce sont des enfants débordant d'une grande joie de vivre que nous avons rencontrés. 
-              Cette rencontre remplie d'émotions fut marquée par la remise de vivres, de non-vivres et une somme d'argent pour permettre à ces enfants de passer de belles fêtes de fin d'année.</div>
-      <!-- article recent-->
-@include('/layouts/ariclesrecents')
-     
-       </div>
-    </div>
- </div>
+                En entrant dans l'orphelinat, nous avons été accueillis par des enfants souriants et pleins de vie. Les bénévoles de la Fondation Glory Impact Group et de la Fondation Francis CJ ont remis des vivres et des non-vivres, ainsi qu'une somme d'argent pour permettre aux enfants de célébrer les fêtes de fin d'année avec dignité et bonheur.<br><br>
+                
+                La joie était palpable sur le visage des enfants, qui ont exprimé leur gratitude envers les donateurs. Les bénévoles ont également passé du temps avec les enfants, jouant avec eux, leur racontant des histoires et partageant des moments de rire et de complicité.<br><br>
+                
+                La visite a été un moment rempli d'émotions pour tous ceux qui y ont participé. Les bénévoles ont été touchés par la résilience des enfants, leur capacité à trouver de la joie dans les moments les plus difficiles et leur détermination à construire un avenir meilleur.<br><br>
+                
+                En fin de compte, la visite à l'orphelinat Oméga International+ a été un rappel poignant de l'importance de donner aux plus vulnérables de notre société. Les enfants de l'orphelinat ont reçu plus qu'un simple soutien matériel ; ils ont reçu l'espoir et l'amour qui leur permettront de grandir et de réussir malgré les obstacles qu'ils rencontreront sur leur chemin.</p>
+          
+                <div class="d-flex ">
+                  <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1"  style="color: #de1a20 " href="https://web.facebook.com/profile.php?id=100086391491746&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1" style="color: #de1a20 " href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-outline-body me-0"  style="color: #de1a20 " href=""><i class="fab fa-linkedin-in"></i></a>
+                  <br><br>
+              </div>
+        
+        
+         </div>
+         @include('/layouts/ariclesrecents')
+      </div>
+   </div>
 
-
-   
-
-    <!-- Section Bas de page debut -->
     @include('/layouts/footer')
 
     <!-- Section Bas de page Fin -->

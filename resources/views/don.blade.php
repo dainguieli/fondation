@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,7 +80,7 @@
                     <p class="mb-4">  Rejoignez-nous dans cette mission importante et faites un don dès maintenant pour soutenir la Fondation Glory Impact Group.
                     </p>
                 
-                        <a class="btn btn-primary py-3 px-5" href="#don">SOUTENIR UN ENTREPRENEUR</a>
+                       
                     
                 
                    
@@ -117,79 +117,109 @@
            
             
 
-            <div class="row g-0 team-items">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0585.JPG') }}"
-                                alt="">
-                           
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La construction et l'équipement de centres de formation professionnelle pour les jeunes en difficulté.</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0584.JPG') }}" 
-                                alt="">
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="row g-0 team-items">
                           
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">L'organisation de sessions de formation et de mentorat pour les jeunes entrepreneurs.</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0594.jpg') }}"
-                                alt="">
-                           
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">La mise en place de programmes de sensibilisation et de prévention contre la drogue et la violence.</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0625.jpg') }}"
-                                alt="">
-                          
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <span class="text-primary">L'octroi de bourses d'études et d'aides financières pour les jeunes défavorisés.</span>
-                            <p class="mt-2">Lorem Ipsa nulla, quas itasequi incidunt lcorrupti beatae id reiciendis a officiis voluptates expedita ipsam! Est.</p>
-                        
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="team-item position-relative">
+                                    <div class="position-relative">
+                                        <img class="img-fluid"src="{{ asset('assets/img/carousels/visiteGroup/1.jpg') }}" 
+                                            alt="">
+                                        <div class="team-social text-center">
+                                            <div class="grop-news_ps_date">
+                                                <i class="bi bi-clock"></i> 24 Janv 2023	</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light text-center p-4">
+                                        <span class="text-primary">Journée Internationale de l'Education avec les établissements primaires et secondaires.</span>
+                                        <p class="mt-2" style="text-align: justify">Le mardi 24 janvier 2023, à l'occasion de la Journée Internationale de l'éducation, la Fondation Glory Impact Group a ...</p>
+            
+                                        <a href="{{ url('/VisiteGroupe') }}"> <span class="text-primary">Savoir plus</span></a>  
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="team-item position-relative">
+                                    <div class="position-relative">
+                                        <img class="img-fluid" src="{{ asset('assets/img/carousels/jeunegrouilleur/1.jpg') }}"
+                                            alt="">
+                                        <div class="team-social text-center">
+                                            <div class="grop-news_ps_date">
+                                                <i class="bi bi-clock"></i> 25 Déc 2022	</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light text-center p-4">
+                                        <span class="text-primary"> La Fondation Glory Impact Group a organisé "Le Déjeuner de Noël avec des jeunes battants et grouilleurs".</span>
+                                        <p class="mt-2" style="text-align: justify">Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout, et cela à partir de cette année,... </p>
+                                        <a  href="{{url('/jeunegroulleur')}}"> <span class="text-primary">Savoir plus</span></a>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="team-item position-relative">
+                                    <div class="position-relative">
+                                        <img class="img-fluid" src="{{ asset('assets/img/carousels/donFondationJC/1.jpg') }}"
+                                            alt="">
+                                        <div class="team-social text-center">
+                                            <div class="grop-news_ps_date">
+                                                <i class="bi bi-clock"></i> 15 Déc 2022	</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light text-center p-4">
+                                        <span class="text-primary">le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires.</span>
+                                        <p class="mt-2" style="text-align: justify">Le jeudi 15 décembre 2022, le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite ...</p>
+                                        <a  href="{{url('/fondationFrancisCJ')}}"> <span class="text-primary">Savoir plus</span></a>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="team-item position-relative">
+                                    <div class="position-relative">
+                                        <img class="img-fluid" src="{{ asset('assets/img/carousels/kdoNoel2022/1.jpg') }}"
+                                            alt="">
+                                        <div class="team-social text-center">
+                                            <div class="grop-news_ps_date">
+                                                <i class="bi bi-clock"></i> 10 Déc 2022	</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light text-center p-4">
+                                        <span class="text-primary">Remise de cadeaux pour la Noel aux enfants issus de différents établissements primaires.</span>
+                                        <p class="mt-2" style="text-align: justify">Le samedi 10 décembre 2022, date de la 3ème journée du Festival Sel et Lumière, 
+                                            la Fondation Glory Impact Group a célébré avant l'heure la fête de la Noël  avec 600 enfants...</p>
+                                        <a  href="{{url('/cadeauxpourlaNoelauxenfants')}}"> <span class="text-primary">Savoir plus</span></a>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="team-item position-relative">
+                                    <div class="position-relative">
+                                        <img class="img-fluid" src="{{ asset('assets/img/don/IMG_0585.JPG') }}"
+                                            alt="">
+                                        <div class="team-social text-center">
+                                            <div class="grop-news_ps_date">
+                                                <i class="bi bi-clock"></i> 08 Déc 2022	</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light text-center p-4">
+                                        <span class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</span>
+                                        <p class="mt-2" style="text-align: justify">Le jeudi 8 novembre 2022, la Fondation Glory Impact Group a ouvert le Festival Sel et Lumière en grande pompe,...</p>
+                                        <a  href="{{url('/associationsfemmes')}}"> <span class="text-primary">Savoir plus</span></a>  
+                                    </div>
+                                </div>
+                            </div>
+                            
+                      
+            
+             
+            
+                
+            
+               
         </div>
         <br>
-       <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">LE BIEN QUE NOUS APPORTONS</h4>
-                <h1 class="display-5 mb-4">EN UNE SEULE VIDEO</h1>
-            </div>
-            <div class="fondation">
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100086391491746%2Fvideos%2F525854432769621%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden;display:block;margin-left:auto; margin-right:auto" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-            </div>
-        </div>
-    </div>
+   
     <!-- Service End -->
         <strong><p class="text-center mx-auto mb-5 wow fadeInUp">Ces réalisations ont permis d'avoir un impact positif sur la vie de nombreux jeunes en Côte d'Ivoire et de les aider à surmonter les obstacles auxquels ils sont confrontés. Votre don peut aider la Fondation Glory Impact Group à continuer de réaliser ces actions importantes pour aider la jeunesse ivoirienne.</p></strong>
         <div class="bg-light text-center p-5.9">
@@ -207,13 +237,16 @@
             <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
                 <h2 id="heading">SOUTENIR UN ENTREPRENEUR</h2>
                 <p>Remplissez tous les champs du formulaire pour passer à l'étape suivante.</p>
-                <form id="msform">
+                <form id="msform" action="{{ route('faitDon') }}" method="POST">
+                    @csrf 
+                    @method('post') 
                     <!-- progressbar -->
                     <ul id="progressbar">
                          <li class="active bi bi-person-circle"><strong>Information personnelle</strong></li>
                        
-                        <li class="bi bi-gift"><strong>soutenir</strong></li>
-                        <li class="bi bi-check-circle-fill"><strong>Finish</strong></li>
+                        <li class="bi bi-gift"><strong>Soutenir</strong></li> 
+                        <li class="bi bi-hourglass-bottom"><strong>En cours</strong></li>
+                        <li class="bi bi-check-circle-fill"><strong>Terminer</strong></li>
                     </ul>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -225,15 +258,14 @@
                                     <h2 class="fs-title">Information personnelle:</h2>
                                 </div>
                                 <div class="col-5">
-                                    <h2 class="steps">Étape 1 - 3</h2>
+                                    <h2 class="steps">Étape 1 - 4</h2>
                                 </div>
                             </div> <label class="fieldlabels">Nom: *</label> <input type="text" name="name" placeholder="Nom" /> 
-                            <label class="fieldlabels">Prénoms: *</label> <input type="text" name="prenom" placeholder="prenom" /> 
-                            <label class="fieldlabels">Nom de l'entreprise: *</label> <input type="text" name="entreprise" placeholder="entreprise" /> 
-                            <label class="fieldlabels">Contact No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> 
+                            <label class="fieldlabels">Prénoms: *</label> <input type="text" name="prenom" placeholder="Prénoms" /> 
+                            <label class="fieldlabels">Nom de l'entreprise: *</label> <input type="text" name="entreprise" placeholder="Entreprise" /> 
+                            <label class="fieldlabels">Contact No.: *</label> <input type="text" name="contact" placeholder="Contact No." /> 
                           
-                        </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                    </fieldset>
+                        </div> <input type="button" name="next" class="next action-button" value="Next" />                     </fieldset>
                     <fieldset>
                         <div class="form-card">
                             <div class="row">
@@ -241,19 +273,60 @@
                                     <h2 class="fs-title">Soutenir un entrepreneur:</h2>
                                 </div>
                                 <div class="col-5">
-                                    <h2 class="steps">Étape 2 - 3</h2>
+                                    <h2 class="steps">Étape 2 - 4</h2>
                                 </div>
                             </div> <label class="fieldlabels">Combien voulez-vous donner ?: *</label> <input type="text" name="don" placeholder="faite un don" /> 
-                            <label class="fieldlabels">Par quel moyen ?: *</label>     <select class="form-select"  aria-label="Default select example" name="mobile" class="input" required>
+                          
+                            <label class="fieldlabels">Categorie de project a financier: *</label>     <select class="form-select"  aria-label="Default select example" name="CategorieDeProject" required>
+                                <option selected>Categorie de project
+                                </option>
+                                <option value="Elevage">Elevage</option>
+                                <option value="Transformation_agricol">Transformation agricol</option>
+                                <option value="Agriculture">Agriculture</option>
+                                <option value="Pêche">Pêche</option>
+                               <option value="Energie_renouvelable">Energie renouvelable</option>
+                                <option value="Coiffure">Coiffure</option> 
+                                 <option value="commerce">Commerce</option>
+                                  <option value="coiffure">Coiffure</option>
+                                  <option value="chanteur">Chanteur</option>
+                                  <option value="arts">Arts</option>
+                                  <option value="digital">Digital</option>
+                            </select>
+                            <label class="fieldlabels">Par quel moyen ?: *</label>     <select class="form-select"  aria-label="Default select example" name="reseauMoney" class="input" required>
                                 <option selected>mobile money </option>
                                 <option value="Orange">Orange</option>
                                 <option value="Mtn">Mtn</option>
                                 <option value="Moov">Moov</option>
                             </select>
-                            <label class="fieldlabels">Numero: *</label> <input type="text" name="numero" placeholder="numero" /> 
+                            <label class="fieldlabels">Numero de depôt: *</label> <input type="text" name="numerDepot" placeholder="Numero de depôt" /> 
                            
                           
-                        </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                        </div>  <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">En cours:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Étape 3 - 4</h2>
+                                </div>
+                            </div> <br><br>
+                            <h2 class="purple-text text-center"><strong>En cours </strong></h2>
+                             
+                            <div class="row justify-content-center">
+                                <div class="col-3"> 
+                                   <img class="img-fluid" src="https://media.tenor.com/-J3rO8bFMLsAAAAi/timer-sablier.gif"
+                                    alt=""> 
+                                </div>
+                            </div> <br><br>
+                            <div class="row justify-content-center">
+                                <div class="col-7 text-center">
+                               
+                                </div>
+                            </div>
+                        </div> <a href="https://pay.apaym.com/eagleinc" > <input type="button" name="next" class="next action-button" value="Submit" /></a> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                     </fieldset>
                     <fieldset>
                         <div class="form-card">
@@ -262,14 +335,15 @@
                                     <h2 class="fs-title">Terminer:</h2>
                                 </div>
                                 <div class="col-5">
-                                    <h2 class="steps">Étape 3 - 3</h2>
+                                    <h2 class="steps">Étape 4 - 4</h2>
                                 </div>
                             </div> <br><br>
                             <h2 class="purple-text text-center"><strong>SUCCÈS !</strong></h2> <br>
                             <div class="row justify-content-center">
                                 <div class="col-3"> 
-                                    <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXstOeXEcnFJ0h_NGnrfE27N_XAFsr9T8tqw&usqp=CAU"
-                                alt="">
+                                   
+                                     <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXstOeXEcnFJ0h_NGnrfE27N_XAFsr9T8tqw&usqp=CAU"
+                                    alt="">
                                 </div>
                             </div> <br><br>
                             <div class="row justify-content-center">

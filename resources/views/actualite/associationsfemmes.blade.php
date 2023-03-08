@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,27 +74,38 @@
     <!-- Carousel End -->
     <br>
 
-   <div class="about_section layout_padding">
-    <div class="container">
-       <div class="row">
-          <div class="col-lg-8 col-sm-12">
-    
-             <span class="grop-post_date"><i class="bi bi-clock"></i> 08 Décembre 2022</span>
-             <h2 class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</h2>
-             <hr >
-             <p class="lorem_text">La première journée du festival, a été consacrée à la cérémonie d’ouverture officielle du Festival en présence des représentants de Mme Kandia Camara, Ministre d'Etat, Ministre des affaires étrangères, de l'intégration africaine et de la diaspora ainsi que de M. Éric Taba, chef de protocole du président de la République.
-              Par la suite plus de 300 dons de vivres et non vivres, chaque don était composée de sac de riz, d’huile, boîte de conserves etc… ont été distribués à plusieurs associations de femmes en situation fragile venus de toutes les communes d’Abidjan
-              En ce moment se déroule dans le chapiteau dressé à cet effet, des panels et conférence sur le thème de l’entrepreneuriat…
-              Ainsi que la demi finale du concours de l’entrepreneuriat
-              La journée du jeudi 08 Novembre 2022, se terminera a 19h.
-              Rendez vous demain pour la demi-finale des concours Karaoke, Danse & Mode et le concert Géant avec Nos artistes</div>
-      <!-- article recent-->
-@include('/layouts/ariclesrecents')
-     
-       </div>
-    </div>
- </div>
-
+    <div class="about_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 col-sm-12">
+      
+              <span class="grop-post_date"><i class="bi bi-clock"></i> 08 Décembre 2022</span>
+              <h2 class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</h2>
+              <hr >
+              <p style="text-align: justify">Le jeudi 8 novembre 2022, la Fondation Glory Impact Group a ouvert le Festival Sel et Lumière en grande pompe, en présence de représentants du gouvernement, des partenaires et des bénéficiaires de ses actions. Cette première journée du festival a été marquée par une cérémonie d'ouverture officielle, suivie de la remise de plus de 300 dons de vivres et de non-vivres à plusieurs associations de femmes et de veuves en situation vulnérable.
+              <br><br>
+              Les dons étaient composés de sacs de riz, d'huile, de boîtes de conserves, de produits d'hygiène, de matériel scolaire, et bien plus encore. Chaque association a reçu un don adapté à ses besoins et à sa situation. Les représentants de ces associations ont exprimé leur gratitude envers la Fondation Glory Impact Group, qui les soutient depuis plusieurs années dans leur lutte contre la précarité.
+              <br><br>
+              Le chapiteau dressé à cet effet a également accueilli des panels et des conférences sur le thème de l'entrepreneuriat, animés par des experts et des entrepreneurs confirmés. Ces panels ont abordé des sujets tels que la création d'entreprise, la gestion financière, le marketing et la communication, l'innovation, l'économie sociale et solidaire, etc. Les participants ont posé des questions, échangé des idées, et découvert des opportunités pour se lancer dans l'entrepreneuriat.
+              <br><br>      
+              Le festival se poursuit avec la demi-finale des concours Karaoke, Danse & Mode, qui ont attiré des candidats de tous âges et de tous horizons. Les participants ont montré leur talent, leur créativité, leur originalité, et leur passion pour la musique, la danse et la mode. Les jurys ont sélectionné les meilleurs pour la finale, qui aura lieu le samedi 11 novembre 2022.
+              <br><br>  
+              Le festival se clôturera par un grand concert avec des artistes renommés, qui réunira des milliers de spectateurs dans une ambiance festive et conviviale. La Fondation Glory Impact Group espère que ce festival inspirera les jeunes et les moins jeunes à croire en leurs rêves, à se former, à s'engager, et à contribuer à la construction d'un monde meilleur.
+                <hr >
+                <div class="d-flex ">
+                  <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1"  style="color: #de1a20 " href="https://web.facebook.com/profile.php?id=100086391491746&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-outline-body me-1" style="color: #de1a20 " href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-outline-body me-0"  style="color: #de1a20 " href=""><i class="fab fa-linkedin-in"></i></a>
+                  <br><br>
+              </div>
+        
+                <!-- article recent-->
+       
+         </div>
+         @include('/layouts/ariclesrecents')
+      </div>
+   </div>
 
    
 
@@ -128,3 +139,8 @@
 </body>
 
 </html>
+
+
+
+
+

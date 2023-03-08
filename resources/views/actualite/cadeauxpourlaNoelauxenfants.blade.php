@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('assets/img/icons/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,34 +40,35 @@
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321468582_1240927749836771_1891665726572954080_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH04-RPg3Ycfqrqn_qRKRTtbgLI6vW-oSduAsjq9b6hJwQN9fM5jW6mkGQYmLV72Bk0KJ4eYOU018pOkWAU7n17&_nc_ohc=i4gI2hpyYwgAX8NPGA_&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCf-jPZAike_F8FRSZ3vejrV2kcMMbYS1e3Mtfh72B3XQ&oe=63FD19A3" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321484212_5941595175879766_7249186337466791470_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHC9AdtGVAJCEvGgMY6UKmqzo0eLLgfDlPOjR4suB8OU5Y_TYE25wwNby_L5dtWlkkUjLfYEWkTrnGUMrmvnVcW&_nc_ohc=MK3x0Jqhj2kAX9Pyikl&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfDJe6LIl0XTH1OkhzGtr-dMNXeg3sv9IOF9QKbLYW4s4w&oe=63FE5E29" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321485011_1503774713450469_3746858205869983229_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFJXeHSrQU5oUwa01VymQGXseakfJG3Cl-x5qR8kbcKX12dR7N9xBPmt9ASXzaUwPsdJfZZdZfNnn8NaQ8FxZFO&_nc_ohc=geWTLceJLgkAX_CGFM_&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfB_-tlgsMFWutRHmAB10im_p_CFPKSPipOM62fM15uWnA&oe=63FE69DF" class="d-block w-100" alt="...">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321383277_824929831947218_8609079719596369197_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFR8ikx3O9x9MNJYor8xa3_7_U_MhAuennv9T8yEC56eRb2zettbSWc93rovLmvl3IHjjBYMmwLlsca7PPEFeYB&_nc_ohc=m6bQmoFjLNwAX8_h_MM&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfBYtm2Vuq2pD9p9jAg-xFYvyFdz2Z4RyAnbFXgNbBrovg&oe=63FD899F" class="d-block w-100" alt="...">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321433652_883014059511130_8205051305172004192_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEg0p_iMWSsDIFdtp7dgNuhfXYZ9wPYyuJ9dhn3A9jK4kxIHVVx8Y6zuIjYNvajNCQrBKiXE6NSXhXfbD4kuyMc&_nc_ohc=4mVMj3fpmJQAX-lWoOr&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAhvsXJlTSWbheFMNlZqoYthvV6yC76Z1ls5DLbY5Vg8A&oe=63FCC61E"
-               class="d-block w-100" alt="...">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321093088_489385313183114_8189450940458422215_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeESoJQ-3J9QJJqQdHplCQjrAEToZ9pMDDQAROhn2kwMNN3KDx-qohSl6-wgy3WWmsxkzdcJS2q910eXE62eGQa0&_nc_ohc=_9OUsZGFAKsAX8zIOp8&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfCFkxfYUJLe5qTpjyO82CDP2Vyz83Z7BAdWEazmYgQnmw&oe=63FE09B0" class="d-block w-100" alt="...">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/321564636_538410941662772_9021766722121831724_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH2-z-0oJTpxTeU2P-kExm2QGz_TzLIeNBAbP9PMsh40I-g3qv1oU7x5ncc7gFpKdBjua1-jxNwcLHftviALq4x&_nc_ohc=q019Wgh8hzUAX8AhUkO&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfAyPmHEgEcmb0-UG4aJ6xNbdFNUdR99dX6ifcqVGogWMA&oe=63FCDD3F" class="d-block w-100" alt="...">
-            </div>
-           
-      </div>
+            <img  src="{{ asset('assets/img/carousels/kdoNoel2022/1.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/2.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/3.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/4.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/5.jpg') }}"
+             class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/6.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="{{ asset('assets/img/carousels/kdoNoel2022/7.jpg') }}" class="d-block w-100" alt="...">
+          </div>
+         
+        </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -90,14 +91,29 @@
              <span class="grop-post_date"><i class="bi bi-clock"></i> 10 Décembre 2022</span>
              <h2 class="text-primary">Remise de cadeaux pour la Noel aux enfants issus de différents établissements primaires. Aux 05 meilleurs pour les récompenser et aux enfants défavorisés. Plus de 600 cadeaux.</h2>
              <hr >
-             <p class="lorem_text">Le samedi 10 décembre 2022, date de la 3ème journée du Festival Sel et Lumière, 
-              la Fondation Glory Impact Group a célébré avant l'heure la fête de la Noël  avec 600 enfants. Parmi ces enfants, 300 sont les meilleurs élèves issus d' établissements d'enseignement primaire et secondaire; 300 autres sont issus  de familles démunies.
-              La Fondation Glory Impact Group célèbre ainsi l'excellence et encourage les enfants à développer l'esprit de solidarité.</p>
-          </div>
+             <p style="text-align: justify">Le samedi 10 décembre 2022, la Fondation Glory Impact Group a organisé un événement spécial pour célébrer la fête de Noël avec plus de 600 enfants issus de différents établissements primaires. Parmi eux, 300 étaient les meilleurs élèves issus d'établissements d'enseignement primaire et secondaire, et les 300 autres étaient des enfants issus de familles défavorisées.
+              L'événement a été organisé dans le cadre de la 3ème journée du Festival Sel et Lumière, organisé par la Fondation Glory Impact Group. L'objectif était de récompenser les meilleurs élèves pour leur excellence académique, tout en apportant de la joie et de l'espoir aux enfants défavorisés.
+              <br><br>
+              La Fondation Glory Impact Group a distribué plus de 600 cadeaux, offrant ainsi un moment de bonheur et de réconfort à ces enfants. Les bénévoles de la Fondation ont organisé des jeux, des activités et des spectacles pour divertir les enfants et leur offrir un moment de détente.
+            <br><br> 
+            Au-delà de la célébration de Noël, l'événement visait également à encourager les enfants à développer l'esprit de solidarité envers les plus démunis. Les enfants ont ainsi appris à partager et à donner aux autres, renforçant ainsi leur sens de la communauté et leur capacité à être des citoyens responsables.
+            <br><br>
+            En fin de compte, l'événement organisé par la Fondation Glory Impact Group a été un moment rempli de joie, de bonheur et d'espoir pour tous les enfants présents. Il a démontré que, même dans les moments les plus difficiles, il est possible de trouver de la joie et de la solidarité en se soutenant les uns les autres.
+        
+            </p> 
+              <hr >
+              <div class="d-flex ">
+                <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-outline-body me-1"  style="color: #de1a20 " href="https://web.facebook.com/profile.php?id=100086391491746&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-outline-body me-1" style="color: #de1a20 " href=""><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-square btn-outline-body me-0"  style="color: #de1a20 " href=""><i class="fab fa-linkedin-in"></i></a>
+                <br><br>
+            </div>
       
               <!-- article recent-->
-      @include('/layouts/ariclesrecents')
+     
        </div>
+       @include('/layouts/ariclesrecents')
     </div>
  </div>
  <!-- about section end --> 
