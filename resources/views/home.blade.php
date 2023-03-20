@@ -29,14 +29,47 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
-
+    <script >
+        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+        var cardWidth = $(".carousel-item").width();
+        var scrollPosition = 0;
+        $(".carousel-control-next").on("click", function () {
+          if (scrollPosition < (carouselWidth - cardWidth * 4)) { //check if you can go any further
+            scrollPosition += cardWidth;  //update scroll position
+            $(".carousel-inner").animate({ scrollLeft: scrollPosition },600); //scroll left
+          }
+        });
+        $(".carousel-control-prev").on("click", function () {
+          if (scrollPosition > 0) {
+            scrollPosition -= cardWidth;
+            $(".carousel-inner").animate(
+              { scrollLeft: scrollPosition },
+              600
+            );
+          }
+        });
+        var multipleCardCarousel = document.querySelector(
+            "#carouselExampleControls"
+          );
+          if (window.matchMedia("(min-width: 768px)").matches) {
+            //rest of the code
+            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+              interval: false
+            });
+          } else {
+            $(multipleCardCarousel).addClass("slide");
+          }
+          var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+            interval: false,
+            wrap: false,
+          });</script>
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
+
 
     <style>
        .carousel-inner {
@@ -139,7 +172,7 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-18">
-                                <h1 class="display-1 text-white animated slideInDown">Encourager La jeunesse à s'instruire et à se cultiver,c'est bâtir une socité meilleure. </h1>
+                                <h1 class="display-1 text-white animated slideInDown">Encourager la jeunesse à s’instruire et à se cultiver, c’est bâtir une société meilleure.</h1>
 
                               
                             </div>
@@ -155,10 +188,8 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Soutenir l'autonomie des jeunes en Côte d'Ivoire</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                Hic eveniet explicabo maiores provident iusto consequatur. Officiis voluptas reprehenderit,
-                                 cupiditate autem pariatur dolore veritatis itaque nam. Necessitatibus unde non minus tenetur.</p>
+                            <h1 class="display-1 text-white animated slideInDown">Garantir le succès scolaire revient à garantir l’autonomie des jeunes plus tard. </h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Garantir le succès scolaire peut certainement contribuer à garantir l'autonomie des jeunes plus tard dans leur vie en leur donnant les compétences et la confiance nécessaires pour réussi.</p>
                             <a href="{{ url('/don') }}"
                                 class="btn btn-primary py-3 px-5 animated slideInLeft">Faite un don</a>
                         </div>
@@ -466,16 +497,15 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
 <br>
 
 
-
     <!-- Testimonial End -->
     <div class="bg-light text-center p-4">
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <h4 class="section-title">Rejoignez-nous !</h4>
-                    <h1 class="">Nous sommes toujours à la recherche de personnes qui partagent notre engagement à aider
-                         les jeunes en situation de vulnérabilité en Côte d'Ivoire.
-                         Si vous voulez contribuer à notre mission et faire une différence dans la vie des jeunes</h1>
+                    <h1 class="">Nous sommes à la recherche de personnes qui partagent notre engagement à aider les jeunes en
+                        situation de vulnérabilité en Côte d’Ivoire ; rejoignez-nous si vous désirez contribuer à notre mission
+                        visant à garantir la prospérité aux jeunes.</h1>
                 </div>
                 <img  data-wow-delay="0.1s" src="{{ asset('assets/img/carousels/benevo.jpg') }}" class="card-img-top" alt="...">
                
@@ -598,17 +628,15 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
             </div>
         </div>
     </div>
-    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-      
-    </div>
+
   
 
     <!-- Section Bas de page debut -->
   
-
-    <!-- Section Bas de page Fin -->
-
     @include('/layouts/footer')
+    <!-- Section Bas de page Fin -->
+ 
+  
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -620,40 +648,7 @@ l'objectif final de ce partenariat est d'aboutir à l…</p>
     <script src="{{ asset('assets/lib/tempusdominus/js/moment.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
     <script src="{{ asset('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-<script >
-var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-var cardWidth = $(".carousel-item").width();
-var scrollPosition = 0;
-$(".carousel-control-next").on("click", function () {
-  if (scrollPosition < (carouselWidth - cardWidth * 4)) { //check if you can go any further
-    scrollPosition += cardWidth;  //update scroll position
-    $(".carousel-inner").animate({ scrollLeft: scrollPosition },600); //scroll left
-  }
-});
-$(".carousel-control-prev").on("click", function () {
-  if (scrollPosition > 0) {
-    scrollPosition -= cardWidth;
-    $(".carousel-inner").animate(
-      { scrollLeft: scrollPosition },
-      600
-    );
-  }
-});
-var multipleCardCarousel = document.querySelector(
-    "#carouselExampleControls"
-  );
-  if (window.matchMedia("(min-width: 768px)").matches) {
-    //rest of the code
-    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-      interval: false
-    });
-  } else {
-    $(multipleCardCarousel).addClass("slide");
-  }
-  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-    interval: false,
-    wrap: false,
-  });</script>
+
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
     {{-- toastr js --}}

@@ -36,7 +36,7 @@
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
+  
 
   <!-- Carousel Start -->
 <!--
@@ -85,7 +85,7 @@
       <div class="carousel-inner">
           <div class="carousel-item active">
             
-            <img src="{{ asset('assets/img/carousels/coachs_Jos/1.jpg') }}"class="d-block w-100" alt="...">
+            <img src="{{ asset('assets/img/carousels/coachs_Jos/5.jpg') }}"class="d-block w-100" alt="...">
             </div>
       <div class="carousel-item">
               <img src="{{ asset('assets/img/carousels/coachs_Jos/2.jpg') }}" class="d-block w-100" alt="...">
@@ -94,12 +94,9 @@
               <img src="{{ asset('assets/img/carousels/coachs_Jos/3.jpg') }}" class="d-block w-100" alt="...">
             </div>
             
+    
             <div class="carousel-item">
-              <img src="{{ asset('assets/img/carousels/coachs_Jos/4.jpg') }}" class="d-block w-100" alt="...">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="{{ asset('assets/img/carousels/coachs_Jos/5.jpg') }}"
+              <img src="{{ asset('assets/img/carousels/coachs_Jos/1.jpg') }}"
                class="d-block w-100" alt="...">
             </div>
  
@@ -122,15 +119,39 @@
           <div class="col-lg-8 col-sm-12">
     
              <span class="grop-post_date"><i class="bi bi-clock"></i> 18 Février 2023</span>
-             <h2 class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIER</h2>
+             <h2 class="text-primary">La Fondation Glory Impact Group a reçu les
+              coachs José PINHEIRO et Paul-Alexandre
+              MANIER</h2>
              <hr >
-             <p style="text-align: justify">La Fondation Glory Impact Group a reçu ce samedi 18 février 2023 les coachs José PINHEIRO et son collaborateur Paul-Alexandre MANIERE dans le cadre d'un stage de formation de football organisé par Bright Academy. Cet événement a été sponsorisé par la Fondation Glory Impact Group, une organisation qui s'engage pour l'épanouissement et la promotion des jeunes talents.<br><br>
+             <p style="text-align: justify">La Fondation Glory Impact Group a reçu les coachs José PINHEIRO
+              et Paul-Alexandre MANIÈRE, le samedi 18 février 2023, dans le cadre
+              
+              d&#39;un stage de formation de football organisé par Bright Academy. Cet
+              événement a été sponsorisé par la Fondation Glory Impact Group, qui
+              a pour vocation l&#39;épanouissement et la promotion des jeunes talents.<br><br>
 
-              José PINHEIRO est un ancien coach pour l'académie de la Fondation du Real Madrid et actuel Directeur de football de l'AS Casinca en France. Son collaborateur Paul-Alexandre MANIERE, quant à lui, est diplômé de l'UEFA B et éducateur pour les catégories U11 à U14 de l'AS Casinca en France. Les deux coachs internationaux ont partagé leur passion et leur savoir-faire avec les participants tout au long de cet événement.
+              José PINHEIRO est un ancien coach pour l&#39;académie de la Fondation
+              du Real Madrid. Il est l’actuel Directeur de football de l&#39;AS Casinca en
+              France. Quant à Paul-Alexandre MANIERE, son collaborateur, il est
+              diplômé de l&#39;UEFA B et éducateur pour les catégories U11 à U14 de
+              l&#39;AS Casinca en France. Les deux coachs internationaux ont partagé
+              leur passion et leur savoir-faire avec les participants.
               
-              <br><br>  Le stage de formation de football s'est déroulé du lundi 20 au samedi 25 février 2023 à Marcory Zone 4. Les activités et ateliers proposés lors des séances d'entraînement ont été très enrichissants pour les participants. La Fondation Glory Impact Group a également offert l'opportunité à des jeunes footballeurs orphelins et des jeunes footballeurs présentant des difficultés financières de participer gratuitement à ce stage.<br><br> De plus, la fondation a permis à des jeunes coachs locaux de bénéficier de l'expérience et du savoir-faire des deux coachs internationaux en assistant au stage.
+              <br><br>  Le stage de formation de football s&#39;est déroulé du lundi 20 au samedi
+              25 février 2023 à Marcory Zone 4. Les activités et les ateliers proposés
+              lors des séances d&#39;entraînement ont été enrichissants selon les
+              participants. La Fondation Glory Impact Group a également offert
+              l&#39;opportunité à des jeunes footballeurs orphelins et des jeunes
+              footballeurs de conditions de vie modestes de participer gratuitement à
+              ce stage.
               
-              Ce premier stage de formation n'est que le début de projets plus ambitieux prévus par la Fondation Glory Impact Group. L'organisation est déterminée à professionnaliser et rendre compétitifs les talents locaux, dans le but de les aider à atteindre leur plein potentiel dans le monde du football.</p>
+              De plus, la Fondation a permis à des jeunes coachs locaux de
+bénéficier de l&#39;expérience et du savoir-faire desdits coachs
+internationaux en assistant au stage. Ce premier stage de formation
+marque le début de projets ambitieux prévus par la Fondation Glory
+Impact Group.<br><br> L&#39;intuition est déterminée à professionnaliser et à rendre
+compétitifs les talents locaux, dans le but de les aider à éclore sur la
+scène du football international.</p>
                 <hr >
                 <div class="d-flex ">
                   <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>

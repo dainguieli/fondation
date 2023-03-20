@@ -37,7 +37,7 @@
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
+
 
     <!-- Page Header Start -->
     <div class="container-fluid py-5 mb-5 wow fadeIn" data-wow-delay="0.1s"
@@ -138,7 +138,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
-                <div class="text-center"><button type="submit">Envoyer un message</button></div>
+                <div class="text-center"><button type="submit"><strong>Envoyer un message</strong></button></div>
               </form>
             </div><!-- End Contact Form -->
   

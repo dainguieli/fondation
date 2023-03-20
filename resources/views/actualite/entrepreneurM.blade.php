@@ -36,7 +36,7 @@
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
+
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -85,19 +85,53 @@
           <div class="col-lg-8 col-sm-12">
     
              <span class="grop-post_date"><i class="bi bi-clock"></i> 13 Février 2023</span>
-             <h2 class="text-primary">le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</h2>
+             <h2 class="text-primary">Le président de la Fondation Glory Impact Group
+              Monsieur Jules GOUHAN a reçu l&#39;entrepreneur
+              M. KOUTOUAN Djoro Leonard</h2>
              <hr >
-             <p style="text-align: justify">Le président de la Fondation Glory Impact Group, M. Jules Gouhan, a reçu l'entrepreneur M. Koutouan Djoro Léonard, créateur et concepteur de la marque "C'est mon champs", lors d'une rencontre le lundi 13 février 2023. Lors de cette réunion, la Fondation a pris la décision d'accompagner, encadrer, coacher et soutenir M. Koutouan Djoro Léonard pour le développement de sa marque.<br><br>
+             <p style="text-align: justify">Le président de la Fondation Glory Impact Group, M. Jules
+              GOUHAN, a accordé une audience à M. KOUTOUAN Djoro
+              Léonard, entrepreneur, créateur et concepteur de la marque
+              &quot;C&#39;est mon champs&quot;, le lundi 13 février 2023. Lors de cette
+              réunion, la Fondation a pris la décision d&#39;accompagner,
+              d’encadrer, de coacher et de soutenir M. KOUTOUAN Djoro
+              Léonard pour le développement de sa marque.<br><br>
 
-              M. Gouhan s'est déclaré très heureux de recevoir ce jeune créateur qui propose de beaux articles. Les engagements forts pris par la Fondation pour promouvoir la marque "C'est mon champs" témoignent de sa volonté de soutenir les entrepreneurs et les créateurs dans leurs projets.<br><br>
+              M. GOUHAN s&#39;est déclaré très heureux de recevoir ce jeune
+
+              créateur qui propose de beaux articles. Les engagements forts
+              pris par la Fondation pour promouvoir la marque &quot;C&#39;est mon
+              champs&quot; témoignent de sa volonté de soutenir les entrepreneurs
+              et les créateurs dans leurs projets.<br><br>
               
-              La Fondation Glory Impact Group est une organisation dédiée à l'accompagnement des entrepreneurs et des créateurs. En offrant son soutien à M. Koutouan Djoro Léonard, la Fondation montre qu'elle reconnaît le potentiel de sa marque et qu'elle est prête à investir du temps, de l'énergie et des ressources pour aider à réaliser ses objectifs.<br><br>
+              La Fondation Glory Impact Group s’assigne la mission
+              d’accompagnement des entrepreneurs et des créateurs. En
+              offrant son soutien à M. KOUTOUAN Djoro Léonard, la Fondation
+              témoigne son intérêt pour le potentiel de la marque et qu&#39;elle est
+              prête à investir du temps, de l&#39;énergie et des ressources pour
+              aider à l’essor de la marque en question.<br><br>
               
-              Le coaching et l'encadrement offerts par la Fondation peuvent être très bénéfiques pour les entrepreneurs débutants, en leur fournissant des conseils, des connaissances et des ressources pour les aider à surmonter les défis et les obstacles rencontrés. En travaillant avec la Fondation Glory Impact Group, M. Koutouan Djoro Léonard pourrait bénéficier de l'expertise de professionnels ayant une grande expérience en matière de développement d'entreprise.<br><br>
+              Le coaching et l&#39;encadrement offerts par la Fondation sont
+              bénéfiques pour les entrepreneurs débutants. Ils leur fournissent
+              des conseils, de l’assistance et des ressources en vue de les
+              aider à surmonter des obstacles. En collaborant avec la
+              Fondation Glory Impact Group, M. KOUTOUAN Djoro Léonard a
+              toutes les chances de bénéficier de l&#39;expertise de professionnels
+              du développement d&#39;entreprise.<br><br>
               
-              En outre, la promotion de la marque "C'est mon champs" est essentielle pour sa croissance et sa réussite. La Fondation Glory Impact Group pourrait aider à organiser des événements de lancement, à établir des partenariats avec des influenceurs et des médias locaux, et à développer une stratégie de marketing efficace pour promouvoir la marque. Tout cela peut aider à augmenter la notoriété de la marque, à développer la clientèle et à générer des revenus.<br><br>
+              En outre, la promotion de la marque &quot;C&#39;est mon champs&quot; est
+              essentielle pour sa croissance et sa réussite. La Fondation Glory
+              Impact Group pourrait aider à organiser des événements de
+              lancement, à établir des partenariats avec des influenceurs et des
+              médias locaux, et à développer une stratégie de marketing
+              efficace visant à promouvoir la marque en question.<br><br>
               
-              Dans l'ensemble, la décision de la Fondation Glory Impact Group d'accompagner M. Koutouan Djoro Léonard et de soutenir la marque "C'est mon champs" est très positive et peut avoir un impact important sur la réussite de son entreprise. Cette initiative est un exemple de la façon dont le soutien à l'entrepreneuriat peut contribuer à la croissance économique et à la création d'emplois dans la région.</p>
+              Dans l&#39;ensemble, la décision de la Fondation Glory Impact Group
+              d&#39;accompagner M. KOUTOUAN Djoro Léonard et de soutenir la
+              marque &quot;C&#39;est mon champs&quot; ouvre un horizon promoteur à
+              l’entreprise. Cette initiative est un exemple de la façon dont le
+              soutien à l&#39;entrepreneuriat peut contribuer à la croissance
+              économique et à la création d&#39;emplois dans la sous-région.</p>
               <hr >
               <div class="d-flex ">
                 <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>

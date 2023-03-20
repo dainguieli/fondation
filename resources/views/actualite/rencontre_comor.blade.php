@@ -36,7 +36,7 @@
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
+    
 
   <!-- Carousel Start -->
 <!--
@@ -119,17 +119,43 @@
           <div class="col-lg-8 col-sm-12">
     
              <span class="grop-post_date"><i class="bi bi-clock"></i> 27 février 2023</span>
-             <h2 class="text-primary">La contribution de la Fondation Glory Impact Group à l'insertion socio-professionnelle des jeunes comoriens à travers l'entrepreneuriat</h2>
+             <h2 class="text-primary">La contribution de la Fondation Glory Impact
+              Group à l&#39;insertion socio-professionnelle des
+              jeunes comoriens à travers l&#39;entrepreneuriat</h2>
              <hr >
-             <p style="text-align: justify">Le lundi 27 février 2023 restera un jour mémorable pour la Fondation Glory Impact Group. En effet, cette organisation à but non lucratif a été reçue en audience par Son Excellence Monsieur DHOIHIR DHOULKAMAL, Ministre des Affaires Étrangères et de la Coopération Internationale, Chargé de la Diaspora de l'Union des Comores.<br><br>
+             <p style="text-align: justify">Le lundi 27 février 2023 restera un jour mémorable pour la
+              Fondation Glory Impact Group. En effet, cette organisation à but
+              non lucratif a été reçue en audience par Son Excellence Monsieur
+              DHOIHIR DHOULKAMAL, Ministre des Affaires Étrangères et de la Coopération Internationale, Chargé de la Diaspora de l&#39;Union des
+              Comores.<br><br>
 
-              La rencontre a débuté par l'expression de vives félicitations de la Fondation Glory Impact Group à Son Excellence Monsieur Le Ministre pour la désignation de l'Union des Comores à la Présidence de l'Union Africaine. Ensuite, la Fondation a présenté son programme d'actions sociales, humanitaires et de formations destiné à la jeunesse comorienne.<br><br>
+              La rencontre a débuté par l&#39;expression de vives félicitations de la
+              Fondation Glory Impact Group à Son Excellence Monsieur Le
+              Ministre pour la désignation de l&#39;Union des Comores à la
+              Présidence de l&#39;Union Africaine. Ensuite, la Fondation a présenté
+              son programme d&#39;actions sociales, humanitaires et de formations
+              destiné à la jeunesse comorienne.<br><br>
               
-              Dans un pays où le taux de chômage chez les jeunes est élevé, la Fondation Glory Impact Group a proposé une collaboration avec les autorités comoriennes pour l'insertion socio-professionnelle des jeunes par le biais de l'entrepreneuriat. Cette collaboration permettra à la Fondation de contribuer à la réduction du taux de chômage des jeunes et à la promotion de l'entrepreneuriat comme une alternative viable.<br><br>
+              Dans un pays où le taux de chômage chez les jeunes est élevé
+(41,6% d’après des chiffres du Programme de création d’emplois),
+la Fondation Glory Impact Group a proposé une collaboration
+avec les autorités comoriennes pour l&#39;insertion socio-
+professionnelle des jeunes par le biais de l&#39;entrepreneuriat. Cette
+collaboration permettra à la Fondation de contribuer à la
+réduction du taux de chômage des jeunes et à la promotion de
+l&#39;entrepreneuriat comme une alternative efficace.<br><br>
               
-              La rencontre s'est déroulée dans une ambiance cordiale et respectueuse, la délégation de la Fondation Glory Impact Group ayant remercié Son Excellence Monsieur DHOIHIR DHOULKAMAL, Ministre des Affaires Étrangères et de la Coopération Internationale, Chargé de la Diaspora de l'Union des Comores pour l'accueil chaleureux qu'il leur a réservé.<br><br>
+La rencontre s&#39;est déroulée dans une ambiance cordiale : la
+délégation de la Fondation Glory Impact Group conduite par M.
+Jules GOUHAN a remercié Son Excellence Monsieur DHOIHIR
+DHOULKAMAL, Ministre des Affaires Étrangères et de la
+Coopération Internationale, Chargé de la Diaspora de l&#39;Union des
+Comores pour l&#39;accueil chaleureux qu&#39;il leur a réservé.<br><br>
               
-              Cette audience marque le début d'une collaboration prometteuse entre la Fondation Glory Impact Group et les autorités comoriennes pour un avenir meilleur pour les jeunes de l'Union des Comores. </p>
+Cette audience marque le début d&#39;une collaboration prometteuse
+entre la Fondation Glory Impact Group et le Gouvernement
+comorien pour un avenir meilleur des jeunes de l&#39;Union des
+Comores. </p>
                 <hr >
                 <div class="d-flex ">
                   <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>

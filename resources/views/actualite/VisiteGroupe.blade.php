@@ -36,8 +36,8 @@
 
 <body>
     @include('/layouts/header')
-    @include('sweetalert::alert')
-    
+   
+    <div class="container">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -50,29 +50,21 @@
           <img src="{{ asset('assets/img/carousels/visiteGroup/3.jpg') }}" class="d-block w-100" alt="...">
         </div>
 
-        <div class="carousel-item">
-          <img src="{{ asset('assets/img/carousels/visiteGroup/4.jpg') }}" class="d-block w-100" alt="...">
-        </div>
 
-        <div class="carousel-item">
-          <img src="{{ asset('assets/img/carousels/visiteGroup/5.jpg') }}"
-           class="d-block w-100" alt="...">
-        </div>
+     
 
         <div class="carousel-item">
           <img src="{{ asset('assets/img/carousels/visiteGroup/6.jpg') }}" class="d-block w-100" alt="...">
         </div>
 
-        <div class="carousel-item">
-          <img src="{{ asset('assets/img/carousels/visiteGroup/7.jpg') }}" class="d-block w-100" alt="...">
-        </div>
-       
+  
       </div>
           <div class="carousel-item">
               <img src="https://scontent.fabj3-2.fna.fbcdn.net/v/t39.30808-6/327093864_725702815856462_8199604525974655938_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHXZWYivDZQvXMW5p8xLA4q1ABAuWwUSGzUAEC5bBRIbD_LKZlrXPZHj-O0tzvvjyc_XykHeWVpzpsUL-Rks-Qh&_nc_ohc=S0pfGTWZyTgAX96O5h4&_nc_oc=AQlsI4O0UokO-D6ZMCwe9TRep7eAs0QhpbVMWX-6b1gxhlnO-sZaYBkqbrfsTIWU_Io&tn=9za5LyBrVSqEjS7J&_nc_ht=scontent.fabj3-2.fna&oh=00_AfAi5BLi-zl79J2RFqBQGuEa6DQqEGXYd9h3D8nrGSy7XA&oe=63FBBE29" class="d-block w-100" alt="...">
             </div>
           </div>
       </div>
+      
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -82,7 +74,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  
+  </div>
     <!-- Carousel End -->
     <br>
    <div class="about_section layout_padding">
@@ -91,15 +83,33 @@
           <div class="col-lg-8 col-sm-12">
     
              <span class="grop-post_date"><i class="bi bi-clock"></i> 24 Janvier 2023</span>
-             <h2 class="text-primary">Journée Internationale de l'Education avec les établissements primaires et secondaires.</h2>
+             <h2 class="text-primary">Journée Internationale de l&#39;Éducation avec des
+              établissements primaires et secondaires</h2>
              <hr >
-             <p style="text-align: justify">Le mardi 24 janvier 2023, à l'occasion de la Journée Internationale de l'éducation, la Fondation Glory Impact Group a organisé une journée spéciale pour les élèves présentant des lacunes. Cette journée visait à encourager et à donner des conseils aux élèves en difficulté, afin de les aider à améliorer leurs performances académiques et à mieux se préparer pour leur avenir.<br><br>
+             <p style="text-align: justify">La Journée Internationale de l&#39;éducation a eu lieu le 24 janvier
+              2023. A l’occasion, la Fondation Glory Impact Group a organisé
+              une journée spéciale destinée aux élèves présentant des lacunes.
+              Cette journée visait à encourager et à donner des conseils aux
+              élèves en difficulté afin de les aider à améliorer leurs
+              performances académiques et à mieux leur avenir.<br><br>
 
-              Des spécialistes de l'éducation ont été invités à donner des conférences et des ateliers sur des sujets tels que la gestion du temps, les techniques d'étude efficaces, la préparation aux examens, et bien d'autres encore. Les élèves ont également eu l'occasion de rencontrer des tuteurs et des mentors pour discuter de leurs difficultés et recevoir des conseils personnalisés.<br><br>
+              Des spécialistes de l&#39;Éducation ont été invités à donner des
+              conférences et des ateliers sur des sujets tels que la gestion du
+              temps, les techniques d&#39;étude efficaces, la préparation aux
+              examens. Les élèves ont également eu l&#39;occasion de rencontrer
+              des tuteurs et des mentors qui les ont entretenus sur comment
+              évacuer les lacunes scolaires.<br><br>
               
-              La Fondation Glory Impact Group a également souligné l'importance de l'éducation en tant que pilier fondamental du développement d'une nation forte, en formant les leaders de demain. La journée s'est terminée par une cérémonie de remise de certificats pour les élèves qui ont fait des progrès significatifs au cours de la journée.<br><br>
+              La Fondation Glory Impact Group a notamment souligné
+              l&#39;importance de l&#39;Éducation en tant que pilier du développement
+              d&#39;une nation forte, en formant les leaders de demain. La journée
+              s&#39;est terminée par une cérémonie de remise de certificats aux
+              élèves qui ont fait des progrès significatifs.<br><br>
               
-              Cette initiative de la Fondation Glory Impact Group montre son engagement en faveur de l'éducation et son désir de voir chaque enfant avoir la possibilité de réaliser son potentiel et de contribuer à la croissance et au développement de la société.</p>
+              Cette initiative de la Fondation Glory Impact Group montre son
+              engagement en faveur de l&#39;Éducation et son désir de voir chaque
+              enfant avoir la possibilité de réaliser son potentiel et de
+              contribuer à la croissance et au développement de la société.</p>
                 <hr >
                 <div class="d-flex ">
                   <a class="btn btn-square btn-outline-body me-1" href="" style="color: #de1a20 "><i class="fab fa-twitter"></i></a>

@@ -62,7 +62,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="">
                      
-                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/ambassadeu.png') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/img/about/habitat/fondaa.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

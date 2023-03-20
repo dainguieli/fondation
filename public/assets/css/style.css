@@ -1135,12 +1135,7 @@ h6,
     margin: 0 0 15px 0 0 0;
     padding: 0;
   }
-  /*
-   modification lien
-  */
-  .lien{
-
-  }
+ 
   /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -1154,7 +1149,7 @@ h6,
 
 .contact .info-item {
   width: 100%;
-  background-color: #4169E1;
+  background-color: #9498ac;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1164,7 +1159,7 @@ h6,
 .contact .info-item:last-child {
   margin-bottom: 0;
 }
-
+  
 .contact .info-item i {
   font-size: 20px;
   color: #fff;
@@ -1201,7 +1196,7 @@ h6,
 .contact .php-email-form {
   width: 90%;
   height: 100%;
-  background: #4169E1;
+  background: #f0f5f5;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 0 20px 20px 0;
@@ -1247,7 +1242,7 @@ h6,
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #E40521;
+  border: 3px solid #1b0d0f;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1278,10 +1273,10 @@ h6,
 
 .contact .php-email-form button[type=submit] {
   background: var(--color-primary);
-  border: 0;
+  border: 10;
   padding: 14px 45px;
-  color: #fff;
-  transition: 0.4s;
+  color: #000000;
+  
   border-radius: 50px;
 }
 

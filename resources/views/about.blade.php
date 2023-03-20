@@ -41,21 +41,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" class="img-fluid"
-        style="background: url({{ asset('assets/img/autres/formation.jpeg') }});
-                background-repeat:no-repeat;
-                background-position:center;">
-        <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown">À propos de nous</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Accueil</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">À propos de nous</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
+ 
     <!-- Page Header End -->
 
 
@@ -145,17 +131,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" width="64" style="filter: invert(9%) sepia(93%) saturate(4930%) hue-rotate(358deg) brightness(95%) contrast(98%);" src="{{ asset('assets/img/icons/resultats.png') }}"
-                                    alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Un engagement fort</h3>
-                                    <p class="mb-0">Nous avons obtenu des résultats tangibles dans nos actions sociales et caritatives, en contribuant à l'amélioration des conditions de vie des jeunes en difficulté et en favorisant leur développement personnel.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
+                   
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">

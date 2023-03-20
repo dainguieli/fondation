@@ -81,8 +81,10 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <span class="text-primary">La contribution de la Fondation Glory Impact Group à l'insertion socio-professionnelle des jeunes comoriens à travers l'entrepreneuriat</span>
-                            <p class="mt-2" style="text-align: justify">Le lundi 27 février 2023, nous avons été reçus en audience par Son Excellence Monsieur DHOIHIR DHOULKAMAL…</p>
+                            <span class="text-primary">La contribution de la Fondation Glory Impact
+                                Group à l&#39;insertion socio-professionnelle des
+                                jeunes comoriens à travers l&#39;entrepreneuriat</span>
+                            <p class="mt-2" style="text-align:inherit">Le lundi 27 février 2023, nous avons été reçus en audience par Son Excellence Monsieur DHOIHIR DHOULKAMAL…</p>
 
                             <a href="{{ url('/rencontre_comor') }}"> <span class="text-primary">Savoir plus</span></a>  
 
@@ -103,7 +105,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group à reçu les coachs José PINHEIRO et son collaborateur</span>
-                            <p class="mt-2" style="text-align: justify">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact... </p>
+                            <p class="mt-2" style="text-align:inherit">Cette rencontre s'est tenue dans le cadre d'un stage de formation de football organisé par Bright Academy, dirigé par M. Patrick Asahia et sponsorisé par la Fondation Glory Impact... </p>
 
                             <a href="{{ url('/coachs_Jos') }}"> <span class="text-primary">Savoir plus</span></a>  
 
@@ -122,7 +124,7 @@
                         </div>
                         <div class="bg-light text-center p-3">
                             <span class="text-primary" style="width: 600px;" > Le président de la Fondation Glory Impact Group Monsieur Jules Gouhan a reçu l'entrepreneur M. Koutouan Djoro Leonard .</span>
-                            <p class="mt-2" style="text-align: justify" style="text-align: justify">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque...</p>
+                            <p class="mt-2" style="text-align:inherit" style="text-align:inherit">A cette rencontre la fondation a décidé de l'accompagner , l'encadrer , le coacher et le soutenir pour le développement de sa marque...</p>
                             <a  href="{{url('/entrepreneurMs')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
@@ -139,7 +141,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">La Fondation Glory Impact Group a eu une fructueuse séance de travail avec M. Rolan LLAMAS </span>
-                            <p class="mt-2" style="text-align: justify">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique...</p>
+                            <p class="mt-2" style="text-align:inherit">Depuis 2022, Glory Impact Group est le représentant exclusif du Group Chronos Athletics en Afrique...</p>
                             <a href="{{url('/Chronos')}}"> <span class="">Savoire plus</span></a>  
                         </div>
                     </div>
@@ -156,7 +158,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">Journée Internationale de l'Education avec les établissements primaires et secondaires.</span>
-                            <p class="mt-2" style="text-align: justify">Le mardi 24 janvier 2023, à l'occasion de la Journée Internationale de l'éducation, la Fondation Glory Impact Group a ...</p>
+                            <p class="mt-2" style="text-align:inherit">Le mardi 24 janvier 2023, à l'occasion de la Journée Internationale de l'éducation, la Fondation Glory Impact Group a ...</p>
 
                             <a href="{{ url('/VisiteGroupe') }}"> <span class="text-primary">Savoir plus</span></a>  
 
@@ -175,7 +177,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary"> La Fondation Glory Impact Group a organisé "Le Déjeuner de Noël avec des jeunes battants et grouilleurs".</span>
-                            <p class="mt-2" style="text-align: justify">Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout, et cela à partir de cette année,... </p>
+                            <p class="mt-2" style="text-align:inherit">Il se décline donc en une cérémonie ouverte aux jeunes sans emploi formel. Ce déjeuner nous l'offrons surtout, et cela à partir de cette année,... </p>
                             <a  href="{{url('/jeunegroulleur')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
@@ -192,7 +194,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite aux pensionnaires.</span>
-                            <p class="mt-2" style="text-align: justify">Le jeudi 15 décembre 2022, le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite ...</p>
+                            <p class="mt-2" style="text-align:inherit">Le jeudi 15 décembre 2022, le Président de Fondation Glory Impact Group et la Présidente de la Fondation Francis CJ ont rendu une visite ...</p>
                             <a  href="{{url('/fondationFrancisCJ')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>
@@ -209,7 +211,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">Remise de cadeaux pour la Noel aux enfants issus de différents établissements primaires.</span>
-                            <p class="mt-2" style="text-align: justify">Le samedi 10 décembre 2022, date de la 3ème journée du Festival Sel et Lumière, 
+                            <p class="mt-2" style="text-align:inherit">Le samedi 10 décembre 2022, date de la 3ème journée du Festival Sel et Lumière, 
                                 la Fondation Glory Impact Group a célébré avant l'heure la fête de la Noël  avec 600 enfants...</p>
                             <a  href="{{url('/cadeauxpourlaNoelauxenfants')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
@@ -227,7 +229,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <span class="text-primary">Remise de plus de 300 dons de vivre et non vivre à l'endroit de plusieurs associations de femmes et des veuves en situation vulnérable</span>
-                            <p class="mt-2" style="text-align: justify">Le jeudi 8 novembre 2022, la Fondation Glory Impact Group a ouvert le Festival Sel et Lumière en grande pompe,...</p>
+                            <p class="mt-2" style="text-align:inherit">Le jeudi 8 novembre 2022, la Fondation Glory Impact Group a ouvert le Festival Sel et Lumière en grande pompe,...</p>
                             <a  href="{{url('/associationsfemmes')}}"> <span class="text-primary">Savoir plus</span></a>  
                         </div>
                     </div>

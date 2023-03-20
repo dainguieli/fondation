@@ -69,7 +69,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h4 class="section-title">Pourquoi devenir Ambassadeur(drice) ?</h4>
-                    <h1 class="display-5 mb-4">La décision de devenir ambassadeur(drice) de la fondation Glory Impact Group dépend de vos propres motivations et objectifs personnels
+                    <h1 class="display-5 mb-4">Devenir un.e ambassadeur (drice) de La Fondation Glory Impact Group dépend de votre décision, vos
+                        motivations et objectifs.
                     </h1>
                     <p>En devenant ambassadeur(drice) de la fondation Glory Impact Group, vous pouvez aider à soutenir les projets de la fondation qui visent à améliorer les conditions de vie des personnes défavorisées, à promouvoir l'éducation, à protéger l'environnement, et bien plus encore. En plus de contribuer à des causes importantes, être ambassadeur(drice) peut également vous donner l'occasion de développer des compétences en leadership, en communication et en collecte de fonds, qui peuvent être bénéfiques pour votre propre développement personnel et professionnel.<br><br>
 
