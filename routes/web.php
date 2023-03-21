@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\benevoleControlleur;
+use App\Http\Controllers\commentaireControlleur;
 use App\Http\Controllers\donControlleur;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
@@ -15,7 +17,7 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::resource("posts", PostController::class);
 Route::get('/', function () {
     return view('home',['PageName' => 'home']);
 });
@@ -88,6 +90,7 @@ Route::get('/ambassadeur', function () {
 });
 
 Route::Post('/creerbenevole',[benevoleControlleur::class,'register'])->name('creerbenevole');
+//Route::Post('/envoyer_commentaire',[commentaireControlleur::class,'envoyer_commentaire'])->name('envoyer_commentaire');
 //action
 Route::get('/action', function () {
     return view('action',['PageName' => 'action']);
